@@ -134,7 +134,7 @@ public class LinkedListPageStep {
 	@Given("User is on LinkedList Introduction page")
 	public void user_is_on_linked_list_introduction_page() {
 		driver = HookPages.getDriver();
-//		driver.get("https://dsportalapp.herokuapp.com/linked-list/introduction/");
+		driver.get("https://dsportalapp.herokuapp.com/linked-list/introduction/");
 		llPageObject = new LinkedListPageObject(driver);
 	}
 

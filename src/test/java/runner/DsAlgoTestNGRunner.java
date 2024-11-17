@@ -25,7 +25,7 @@ public class DsAlgoTestNGRunner extends AbstractTestNGCucumberTests {
 	@Parameters({"browser"})
 	public static void BeforeClass(String browsername)
 	{
-		System.out.println("browsernamebrowsernamebrowsernamebrowsernamebrowsername"+browsername);
+		System.out.println("browsernamebrowsernamebrowsername"+browsername);
 		BrowserManger.setBrowserName(browsername);
 				
 	}

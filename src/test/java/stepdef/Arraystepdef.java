@@ -35,28 +35,35 @@ public class Arraystepdef {
 
 
 	@When("User clicks on Arrays in Python Link")
-	public void user_clicks_on_arrays_in_python_link() {
+	public void user_clicks_on_arrays_in_python_link() throws InterruptedException {
+		
 		pageobject.arrayinpython();
+		
+		Thread.sleep(2000);
 	}
 
 	@Then("User navigated to Arrays in Python Page")
-	public void user_navigated_to_arrays_in_python_page() {
+	public void user_navigated_to_arrays_in_python_page() throws InterruptedException {
 		System.out.println("user views the array in python page");
+		Thread.sleep(2000);
 	}
 
 	@When("User clicks on Arrays Using List Link")
-	public void user_clicks_on_arrays_using_list_link() {
+	public void user_clicks_on_arrays_using_list_link() throws InterruptedException {
 		pageobject.arrayusinglist();
+		Thread.sleep(2000);
 	}
 
 	@Then("User navigated to Arrays Using List Page")
-	public void user_navigated_to_arrays_using_list_page() {
+	public void user_navigated_to_arrays_using_list_page() throws InterruptedException {
 		System.out.println("user views the array using list page");
+		Thread.sleep(2000);
 	}
 
 	@When("User clicks on Basic Operations in Lists Link")
-	public void user_clicks_on_basic_operations_in_lists_link() {
+	public void user_clicks_on_basic_operations_in_lists_link() throws InterruptedException {
 		pageobject.basicoperations();
+		Thread.sleep(2000);
 	}
 
 	@Then("User navigated to Basic Operations in Lists Page")
@@ -65,8 +72,9 @@ public class Arraystepdef {
 	}
 
 	@When("User clicks on Applications of Array Link")
-	public void user_clicks_on_applications_of_array_link() {
+	public void user_clicks_on_applications_of_array_link() throws InterruptedException {
 		pageobject.applicationarray();
+		Thread.sleep(2000);
 	}
 
 	@Then("User navigated to Applications of Array Page")
