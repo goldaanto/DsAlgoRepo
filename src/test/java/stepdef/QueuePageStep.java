@@ -17,8 +17,7 @@ public class QueuePageStep {
 	
 	@Given("User is on Queue page")
 	public void user_is_on_queue_page() {
-		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/queue/");
+		driver = HookPages.getDriver();		
 		queuePageObject = new QueuePageObject(driver);
 	    
 	}
@@ -74,9 +73,11 @@ public class QueuePageStep {
 	
 	@Given("User is on Implement Queue page")
 	public void user_is_on_implement_queue_page() {
-		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/queue/implementation-lists/");
-		queuePageObject = new QueuePageObject(driver);
+		driver = HookPages.getDriver();	
+		if(queuePageObject==null)
+		{
+			queuePageObject = new QueuePageObject(driver);
+		}
 	}
 
 	@When("User clicks on Practise Test link")
@@ -103,6 +104,15 @@ public class QueuePageStep {
 		Assert.assertEquals("Assessment", title);
 	}
 
+	@Given("User is on Queue Sub page")
+	public void user_is_on_queue_sub_page() {
+		
+		driver = HookPages.getDriver();	
+		if(queuePageObject==null)
+		{
+			queuePageObject = new QueuePageObject(driver);
+		}	    
+	}
 
 
 }

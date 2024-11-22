@@ -28,16 +28,16 @@ public class LinkedListPageObject {
 	//*[@id="content"]/li[1]/a
 	//Sub Linked List Pages Locators
 	
-	@FindBy(xpath= "//*[@id=\"content\"]/li[1]/a") WebElement intro_intro_loc;
-	@FindBy(xpath= "//*[@id=\"content\"]/li[2]/a") WebElement intro_create_loc;
-	@FindBy(xpath= "//*[@id=\"content\"]/li[3]/a") WebElement intro_type_loc;
-	@FindBy(xpath= "//*[@id=\"content\"]/li[4]/a") WebElement intro_implement_loc;
-	@FindBy(xpath= "//*[@id=\"content\"]/li[5]/a") WebElement intro_traverse_loc;
-	@FindBy(xpath= "//*[@id=\"content\"]/li[6]/a") WebElement intro_insert_loc;
-	@FindBy(xpath= "//*[@id=\"content\"]/li[7]/a") WebElement intro_delete_loc;
+	@FindBy(linkText= "Introduction") WebElement intro_intro_loc;
+	@FindBy(linkText= "Creating Linked LIst") WebElement intro_create_loc;
+	@FindBy(linkText= "Types of Linked List") WebElement intro_type_loc;
+	@FindBy(linkText= "Implement Linked List in Python") WebElement intro_implement_loc;
+	@FindBy(linkText= "Traversal") WebElement intro_traverse_loc;
+	@FindBy(linkText= "Insertion") WebElement intro_insert_loc;
+	@FindBy(linkText= "Deletion") WebElement intro_delete_loc;
 	
-	@FindBy(xpath= "//*[@id=\"content\"]/a") WebElement intro_practise_loc;
-	@FindBy(xpath= "/html/body/div[2]/div/div[2]/a") WebElement intro_try_loc;
+	@FindBy(css= "#content > a") WebElement intro_practise_loc;
+	@FindBy(linkText= "Try here>>>") WebElement intro_try_loc;
 	
 	
 	
@@ -50,6 +50,7 @@ public class LinkedListPageObject {
 	}
 	public void click_Intro()
 	{
+		System.out.println("intro_locintro_locintro_locintro_locintro_locintro_loc"+intro_loc);
 		intro_loc.click();
 		
 	}
@@ -114,7 +115,7 @@ public class LinkedListPageObject {
 		intro_delete_loc.click();
 	}
 	public void click_Intro_Practise()
-	{
+	{		
 		intro_practise_loc.click();
 	}
 	public void click_Intro_tryhere()

@@ -1,6 +1,6 @@
 Feature: feature to test DsAlgo logim page
 
-  @login
+  
   Scenario: Check login is successful with invalid credentials.
     Given I go to the login page
     When user enters the Incorrect username and password

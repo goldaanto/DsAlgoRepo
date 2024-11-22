@@ -1,10 +1,16 @@
 Feature: Testing the Registration File
 
-Scenario: Test the Registration Page
+
+
+ 
+Scenario Outline: Test the Registration Page
   
     Given I go to the Registration page
-    When user enters the username, password and confirm password
+    When user enter "goldaanto@yahoo.com", "Yahoo@123","Yahoo@123"
     And Clicks on Submit button
     Then user  navigated to the home page
-    
+
+
+ 
+
     

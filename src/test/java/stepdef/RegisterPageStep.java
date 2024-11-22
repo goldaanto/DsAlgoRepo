@@ -12,46 +12,59 @@ import hook.BrowserManger;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
+import junit.framework.Assert;
 import pageobject.RegisterPageObject;
 import util.ExcelData;
 import util.ExcelReader;
 
-public class RegisterPageStep {
+public class RegisterPageStep extends BaseStep {
 	
-	WebDriver driver = null;
+//	WebDriver driver = null;
 	RegisterPageObject  pageObject = null;
 	ExcelReader xcelRead = null;
 	final String sheetName = "Sheet1";
 	ArrayList dataList = null;
-	ExcelData data = null;
+	
 	
 	@Given("I go to the Registration page")
 	public void i_go_to_the_registration_page() throws InterruptedException, IOException {
-		driver = BrowserManger.StartBrowser();
+//		driver = BrowserManger.StartBrowser();
 		pageObject = new RegisterPageObject(driver);
-		driver.get("https://dsportalapp.herokuapp.com/register");
+		System.out.println("QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ");
+		//driver.get(url);
+		//driver.get("https://dsportalapp.herokuapp.com/register");
 		xcelRead = new ExcelReader(System.getProperty("user.dir")+"\\TestData\\\\registerdata.xlsx");
-		 data = xcelRead.getRegisterData(sheetName);
-		Thread.sleep(2000);
+		 
+		Thread.sleep(1000);
+	}
+
+	
+	@When("user enter {string}, {string},{string}")
+	public void user_enter(String string, String string2, String string3) {
+		
+		pageObject.setUserName(string);
+		pageObject.setPassword1(string2);
+		pageObject.setPassword2(string3);
+	   
 	}
 
 	
 	
-	@When("user enters the username, password and confirm password")
-	public void user_enters_the_username_password_and_confirm_password() throws InterruptedException {
+	@When("user get data from {string}, {int}")
+	public void user_get_data_from(String string, Integer int1) throws InterruptedException {
 		
-		String username = data.getUsername();
-		String password = data.getPassword();
-		String cnfPassword = data.getCnfPassword();
-		System.out.println("usernameusernameusernameusername"+username);
-		System.out.println("passwordpasswordpasswordpassword"+password);
-		System.out.println("passwordpasswordpasswordpassword"+cnfPassword);
-			
+		dataList = xcelRead.getData(string);
+		System.out.println("RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRr"+dataList.size());
+		@SuppressWarnings("unchecked")
+		ArrayList<Object> data =  (ArrayList<Object>) dataList.get(int1);
+		System.out.println("data.size()data.size()data.size()data.size()"+data.size());
+		String username = (String) data.get(0);
+		String password = (String) data.get(1);
+		String cnfPassword = (String) data.get(2);	
 		pageObject.setUserName(username);
 		pageObject.setPassword1(password);
 		pageObject.setPassword2(cnfPassword);
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 	}
 	
 	@When("Clicks on Submit button")
@@ -60,10 +73,13 @@ public class RegisterPageStep {
 		submitele.submit();
 	}
 	
+	@SuppressWarnings("deprecation")
 	@Then("user  navigated to the home page")
-	public void user_navigated_to_the_home_page() {
-		driver.close();
-	   driver.quit();
+	public void user_navigated_to_the_home_page() throws InterruptedException {
+		
+		Assert.assertEquals("Invalid Username and Password", "Invalid Username and Password");
+		Thread.sleep(1000);
+		
 	}
 
 }

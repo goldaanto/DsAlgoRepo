@@ -24,13 +24,11 @@ public class TryEditorPageStep {
 	ArrayList<Object> dataList = null;
 	ArrayList<Object> data = null;
 	
-	
-	
 	@Given("User is on the Try Editor Page")
 	public void user_is_on_the_try_editor_page() throws IOException {
 		driver = HookPages.getDriver();
 		
-		
+		driver.get("https://dsportalapp.herokuapp.com/tryEditor");
 		if(pageEle == null)
 		{
 			pageEle = new TryEditorPageObject(driver);
@@ -38,7 +36,7 @@ public class TryEditorPageStep {
 		driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(60,TimeUnit.SECONDS);
 		xcelRead = new ExcelReader(System.getProperty("user.dir")+"\\TestData\\\\tryeditordata.xlsx");
-		System.out.println("LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL"+ xcelRead);
+		
 	}
 
 //	@When("User enters the Python statement in the editor")

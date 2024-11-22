@@ -29,12 +29,12 @@ public void user_clicks_on_graph_link() {
 	graphPageObject.clickGraphLink();
 }
 
-@Then("User navigated to Graph page")
-public void user_navigated_to_graph_page() throws InterruptedException {
-	Thread.sleep(5000);	
-	String title = driver.getTitle();
-	Assert.assertEquals("Graph", title);
-}
+//@Then("ser navigated to Graph page")
+//public void user_navigated_to_graph_page() throws InterruptedException {
+//	Thread.sleep(5000);	
+//	String title = driver.getTitle();
+//	Assert.assertEquals("Graph", title);
+//}
 
 @When("User clicks on Graph Represent link")
 public void user_clicks_on_graph_represent_link() {

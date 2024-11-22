@@ -14,7 +14,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageobject.LinkedListPageObject;
 
-public class LinkedListPageStep {
+public class LinkedListPageStep extends BaseStep {
 		
 	LinkedListPageObject llPageObject = null;
 	
@@ -24,11 +24,21 @@ public class LinkedListPageStep {
 	@Given("User is on LinkedList Page")
 	public void user_is_on_linked_list_page() {
 		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/linked-list/");
-		llPageObject = new LinkedListPageObject(driver);
+		//driver.get("https://dsportalapp.herokuapp.com/linked-list/");
+		if(llPageObject == null)
+		{
+			llPageObject = new LinkedListPageObject(driver);
+		}
+		System.out.println("llPageObjectllPageObjectllPageObjectllPageObjectllPageObjectllPageObject"+ llPageObject);
 		
 	}
+	
+	@When("user inputs data from {string} and {string}")
+	public void user_inputs_data_from_and(String string, String string2) {
+	    
+	}
 
+	
 
 	@Then("user clicks on Introduction link")
 	public void user_clicks_on_introduction_link() throws InterruptedException {
@@ -46,7 +56,7 @@ public class LinkedListPageStep {
 
 	@When("user clicks on Create LinkedList link")
 	public void user_clicks_on_create_linked_list_link() {
-		
+		System.out.println("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"+llPageObject);
 		llPageObject.click_Create();
 	   
 	}
@@ -134,8 +144,22 @@ public class LinkedListPageStep {
 	@Given("User is on LinkedList Introduction page")
 	public void user_is_on_linked_list_introduction_page() {
 		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/linked-list/introduction/");
-		llPageObject = new LinkedListPageObject(driver);
+		
+		if(llPageObject ==null)
+		{
+			
+			llPageObject = new LinkedListPageObject(driver);
+		}
+	}
+	
+	@Given("User is on LinkedList Sub page")
+	public void user_is_on_linked_list_sub_page() {
+		driver = HookPages.getDriver();
+
+		if(llPageObject ==null)
+		{
+			llPageObject = new LinkedListPageObject(driver);
+		}
 	}
 
 	@When("user clicks on sub Introduction link")
@@ -175,6 +199,7 @@ public class LinkedListPageStep {
 
 	@When("User clicks on sub Practise Question link")
 	public void user_clicks_on_sub_practise_question_link() {
+		System.out.println("user_clicks_on_sub_practise_question_linkuser_clicks_on_sub_practise_question_link"+llPageObject);
 		llPageObject.click_Intro_Practise();
 		
 		
@@ -184,8 +209,9 @@ public class LinkedListPageStep {
 	public void user_navigated_to_practise_question_page() throws InterruptedException {
 		Thread.sleep(2000);	
 		String title = driver.getTitle();
+		System.out.println("PractisePractisetitletitletitletitletitletitletitletitletitle"+title);
 		Assert.assertEquals("Practice Questions", title);
-	}
+	}	
 
 	@When("User clicks on sub Try Here link")
 	public void user_clicks_on_sub_try_here_link() {
@@ -199,43 +225,6 @@ public class LinkedListPageStep {
 		String title = driver.getTitle();
 		Assert.assertEquals("Assessment", title);
 	}
-//Create Linked List Page
-	
-//	@Given("User is on LinkedList Create page")
-//	public void user_is_on_linked_list_create_page() {
-//		driver = HookPages.getDriver();
-//		driver.get("https://dsportalapp.herokuapp.com/linked-list/creating-linked-list/");
-//		llPageObject = new LinkedListPageObject(driver);
-//	}
-//
-//	@Given("User is on LinkedList Implement page")
-//	public void user_is_on_linked_list_implement_page() {
-//		driver = HookPages.getDriver();
-//		driver.get("https://dsportalapp.herokuapp.com/linked-list/implement-linked-list-in-python/");
-//		llPageObject = new LinkedListPageObject(driver);
-//	}
-//	
-//	@Given("User is on LinkedList TypesOf page")
-//	public void user_is_on_linked_list_types_of_page() {
-//		driver = HookPages.getDriver();
-//		driver.get("https://dsportalapp.herokuapp.com/linked-list/types-of-linked-list/");
-//		llPageObject = new LinkedListPageObject(driver);
-//	}
-//	
-//	@Given("User is on LinkedList Traverse page")
-//	public void user_is_on_linked_list_traverse_page() {
-//		driver = HookPages.getDriver();
-//		driver.get("https://dsportalapp.herokuapp.com/linked-list/traversal/");
-//		llPageObject = new LinkedListPageObject(driver);
-//	}
-
-
-
-
-
-
-
-
 
 
 }

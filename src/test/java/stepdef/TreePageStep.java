@@ -13,14 +13,25 @@ import pageobject.TreePageObject;
 public class TreePageStep {
 	WebDriver driver = null;
 	TreePageObject treePageObject = null;
-	
+
 	@Given("User is on Tree page")
 	public void user_is_on_tree_page() {
 		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/tree/");
-		treePageObject = new TreePageObject(driver);
-		
+		if(treePageObject == null)
+		{
+			treePageObject = new TreePageObject(driver);
+		}
 	}
+
+	@Given("User is on Overview Sub page")
+	public void user_is_on_overview_sub_page() {
+		driver = HookPages.getDriver();
+		if(treePageObject == null)
+		{
+			treePageObject = new TreePageObject(driver);
+		}
+	}
+	
 
 	@When("User clicks on Tree Overview Link")
 	public void user_clicks_on_tree_overview_link() {
@@ -45,7 +56,7 @@ public class TreePageStep {
 		String title = driver.getTitle();
 		Assert.assertEquals("Terminologies", title);
 
-	    
+
 	}
 
 	@When("User clicks on Types Trees Link")
@@ -205,9 +216,9 @@ public class TreePageStep {
 
 	@Then("User navigated to Practice  Page")
 	public void user_navigated_to_practice_page() {
-		
+
 	}
-	
+
 	@When("User clicks on Try Here Like")
 	public void user_clicks_on_try_here_like() {
 		treePageObject.click_try_here_link();
@@ -215,7 +226,7 @@ public class TreePageStep {
 
 	@Then("User navigated to Assessment  Page")
 	public void user_navigated_to_assessment_page() {
-	   
+
 	}
 
 	@Given("User is on Terminologies Tree page")
@@ -301,6 +312,6 @@ public class TreePageStep {
 		driver.get("https://dsportalapp.herokuapp.com/tree/implementation-of-bst/");
 		treePageObject = new TreePageObject(driver);
 	}
-	
-	
+
+
 }

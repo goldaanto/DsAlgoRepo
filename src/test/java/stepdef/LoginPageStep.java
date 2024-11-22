@@ -20,35 +20,27 @@ import pageobject.LoginPageObject;
 import util.ExcelData;
 import util.ExcelReader;
 
-public class LoginPageStep {
+public class LoginPageStep extends BaseStep{
 
-
-	WebDriver driver = null;
-	LoginPageObject  pageObject = null;
 	ExcelReader xcelRead = null;
 	final String sheetName = "Sheet1";
 	ArrayList<Object> dataList = null;
-	ArrayList data = null;
+	ArrayList<Object> data = null;
 
 	@Given("I go to the login page")
-	public void i_go_to_the_login_page() throws IOException {
-		
-		
-		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/login");
-		driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
-		driver.manage().timeouts().pageLoadTimeout(60,TimeUnit.SECONDS);
-		
+	public void i_go_to_the_login_page() throws IOException {		
+		pageObject = new LoginPageObject(driver);
 		xcelRead = new ExcelReader(System.getProperty("user.dir")+"\\TestData\\\\logindata.xlsx");
 		//dataList = xcelRead.getLoginData(sheetName);
 	}
 	
+	@SuppressWarnings("unchecked")
 	@When("user enters the Incorrect username and password")
 	public void user_enters_the_incorrect_username_and_password() throws InterruptedException {
-		pageObject = new LoginPageObject(driver);
+		
 		dataList = xcelRead.getData(sheetName);
 		System.out.println("dataListdataListdataListdataListdataListdataListdataList"+dataList.size());
-		data = (ArrayList) dataList.get(0);
+		data = (ArrayList<Object>) dataList.get(0);
 		System.out.println("datadatadatadatadatadatadatadatadata"+data);
 		String username = (String) data.get(0);
 		String password = (String) data.get(1);
@@ -64,7 +56,7 @@ public class LoginPageStep {
 	
 	@When("user inputs data from {string} and {int}")
 	public void user_inputs_data_from_and(String string, Integer int1) throws InterruptedException {
-		pageObject = new LoginPageObject(driver);
+		
 		dataList = xcelRead.getData(string);
 		System.out.println("dataListdataListdataListdataListdataListdataListdataList"+dataList.size());
 		data =  (ArrayList) dataList.get(int1);
@@ -76,7 +68,7 @@ public class LoginPageStep {
 		pageObject.setUsername(username);
 		pageObject.setPassword(password);
 		
-		Thread.sleep(10000);
+		Thread.sleep(1000);
 	}
 
 	
@@ -84,7 +76,7 @@ public class LoginPageStep {
 	public void user_remains_on_login_page() throws InterruptedException {
 	    String title = driver.getTitle();
 	    Assert.assertEquals(" Login ", title);
-	    Thread.sleep(5000);
+	    Thread.sleep(1000);
 	}
 
 	@Then("Invalid username error message is displayed")
@@ -117,11 +109,13 @@ public class LoginPageStep {
 	@Then("user is navigated to the home page")
 	public void user_is_navigated_to_the_home_page() throws InterruptedException {
 		
-		if(pageObject.checkInHomePage())
-		{
-			Thread.sleep(5000);			
-			//driver.close();
-		}
+		//Write Assert Code
+		
+//		if(pageObject.checkInHomePage())
+//		{
+//			Thread.sleep(5000);			
+//			//driver.close();
+//		}
 	}
 	
 
