@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="96" passed="80" failed="16" skipped="0">
+<testng-results ignored="0" total="16" passed="0" failed="16" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-24T11:12:58 GMT-05:00" name="Suite" finished-at="2024-11-24T11:18:28 GMT-05:00" duration-ms="329945">
+  <suite started-at="2024-11-24T11:42:01 GMT-05:00" name="Failed suite [Suite]" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="1098">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-11-24T11:12:58 GMT-05:00" name="TestChrome" finished-at="2024-11-24T11:18:28 GMT-05:00" duration-ms="329945">
+    <test started-at="2024-11-24T11:42:01 GMT-05:00" name="TestChrome(failed)" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="1098">
       <class name="runner.DsAlgoTestNGRunner">
-        <test-method is-config="true" signature="BeforeClass(java.lang.String)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:12:58 GMT-05:00" name="BeforeClass" finished-at="2024-11-24T11:12:58 GMT-05:00" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="BeforeClass(java.lang.String)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:01 GMT-05:00" name="BeforeClass" finished-at="2024-11-24T11:42:01 GMT-05:00" duration-ms="18" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,690 +21,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:12:58 GMT-05:00" name="setUpClass" finished-at="2024-11-24T11:12:58 GMT-05:00" duration-ms="482" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:01 GMT-05:00" name="setUpClass" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="474" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2e2546bf]]>
+                <![CDATA[org.testng.TestRunner@56ccd751]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:12:58 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:02 GMT-05:00" duration-ms="3907" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check the Register Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test the home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:07 GMT-05:00" duration-ms="4592" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test the Registration Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test the home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:07 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:10 GMT-05:00" duration-ms="3650" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test the Registration Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test the home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:10 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:14 GMT-05:00" duration-ms="3692" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test the Registration Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test the home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:14 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:17 GMT-05:00" duration-ms="3357" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check the Sign in Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test the home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:17 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:19 GMT-05:00" duration-ms="1558" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check login  with valid credentials."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test the home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:19 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:21 GMT-05:00" duration-ms="1613" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check login  with valid credentials."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test the home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:22 GMT-05:00" duration-ms="1816" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check login  with valid credentials."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test the home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:22 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:25 GMT-05:00" duration-ms="2515" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check get started button of Data Structure - intro tab."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test the home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:25 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:25 GMT-05:00" duration-ms="592" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check get started button of Array tab."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test the home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:25 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:26 GMT-05:00" duration-ms="609" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check get started button of Linked List tab."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test the home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:26 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:27 GMT-05:00" duration-ms="502" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check get started button of Stack  tab."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test the home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:27 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:27 GMT-05:00" duration-ms="580" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check get started button of Queue tab."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test the home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:27 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:28 GMT-05:00" duration-ms="530" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check get started button of tree tab."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test the home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:28 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:33 GMT-05:00" duration-ms="5581" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check get started button of graph tab."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test the home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:33 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:36 GMT-05:00" duration-ms="2991" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Tree Overview Trees link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:36 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:39 GMT-05:00" duration-ms="3001" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Tree Terminologies link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:39 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:42 GMT-05:00" duration-ms="2879" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Tree Types Trees link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:42 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:45 GMT-05:00" duration-ms="2977" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Tree Traversals link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:45 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:48 GMT-05:00" duration-ms="2936" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Tree illustration link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:48 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:51 GMT-05:00" duration-ms="3008" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Tree Binary Trees link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:51 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:54 GMT-05:00" duration-ms="3087" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Tree Types Binary Trees link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:54 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:13:57 GMT-05:00" duration-ms="3039" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Tree Impl Python link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:13:57 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:00 GMT-05:00" duration-ms="2972" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Tree Binary Traversals link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:00 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:03 GMT-05:00" duration-ms="2940" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Tree Impl Binary Trees link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:03 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:06 GMT-05:00" duration-ms="2946" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Tree Application Binary Tree link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:06 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:09 GMT-05:00" duration-ms="3246" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Tree Binary Search link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:09 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:12 GMT-05:00" duration-ms="2972" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Tree Impl Binary Search link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:12 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:16 GMT-05:00" duration-ms="3539" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test  Overview Overview Trees link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:16 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:19 GMT-05:00" duration-ms="3505" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Overview Terminologies link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:19 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:23 GMT-05:00" duration-ms="3487" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Overview Types Trees link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:23 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:26 GMT-05:00" duration-ms="3538" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Overview Traversals link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:26 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:30 GMT-05:00" duration-ms="3538" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Overview illustration link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:30 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:34 GMT-05:00" duration-ms="3712" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Overview Binary Trees link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:34 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:37 GMT-05:00" duration-ms="3582" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Overview Types Binary Trees link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:37 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:41 GMT-05:00" duration-ms="3472" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Overview Impl Python link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:41 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:44 GMT-05:00" duration-ms="3530" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Overview Binary Traversals link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:44 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:48 GMT-05:00" duration-ms="3477" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Overview Impl Binary Trees link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:48 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:51 GMT-05:00" duration-ms="3566" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Overview Application Binary Tree link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:51 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:55 GMT-05:00" duration-ms="3626" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Overview Binary Search link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:55 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:14:59 GMT-05:00" duration-ms="3638" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Overview Impl Binary Search link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:14:59 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:00 GMT-05:00" duration-ms="1658" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Overview Impl Practice Question link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:00 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:01 GMT-05:00" duration-ms="1128" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="256" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -717,21 +45,74 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null]]>
+              <![CDATA[Failed to instantiate class stepdef.Homepagestepdef]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null
-at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
-at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:177)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdef.Homepagestepdef
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 43 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at stepdef.BaseStep.<init>(BaseStep.java:34)
+at stepdef.Homepagestepdef.<init>(Homepagestepdef.java:15)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:01 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:02 GMT-05:00" duration-ms="1073" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="34" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -744,21 +125,74 @@ at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null]]>
+              <![CDATA[Failed to instantiate class stepdef.Homepagestepdef]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null
-at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
-at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:191)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdef.Homepagestepdef
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 43 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at stepdef.BaseStep.<init>(BaseStep.java:34)
+at stepdef.Homepagestepdef.<init>(Homepagestepdef.java:15)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:03 GMT-05:00" duration-ms="1061" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="18" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -771,21 +205,74 @@ at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null]]>
+              <![CDATA[Failed to instantiate class stepdef.Homepagestepdef]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null
-at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
-at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:205)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdef.Homepagestepdef
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 43 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at stepdef.BaseStep.<init>(BaseStep.java:34)
+at stepdef.Homepagestepdef.<init>(Homepagestepdef.java:15)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:03 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:05 GMT-05:00" duration-ms="1029" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="14" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -798,21 +285,74 @@ at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null]]>
+              <![CDATA[Failed to instantiate class stepdef.Homepagestepdef]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null
-at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
-at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:220)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdef.Homepagestepdef
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 43 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at stepdef.BaseStep.<init>(BaseStep.java:34)
+at stepdef.Homepagestepdef.<init>(Homepagestepdef.java:15)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:05 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:06 GMT-05:00" duration-ms="1115" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="21" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -825,21 +365,74 @@ at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null]]>
+              <![CDATA[Failed to instantiate class stepdef.Homepagestepdef]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null
-at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
-at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:234)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdef.Homepagestepdef
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 43 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at stepdef.BaseStep.<init>(BaseStep.java:34)
+at stepdef.Homepagestepdef.<init>(Homepagestepdef.java:15)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:06 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:07 GMT-05:00" duration-ms="1163" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="15" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -852,21 +445,74 @@ at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null]]>
+              <![CDATA[Failed to instantiate class stepdef.Homepagestepdef]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null
-at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
-at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:248)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdef.Homepagestepdef
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 43 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at stepdef.BaseStep.<init>(BaseStep.java:34)
+at stepdef.Homepagestepdef.<init>(Homepagestepdef.java:15)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:07 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:08 GMT-05:00" duration-ms="1017" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="13" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -879,21 +525,74 @@ at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null]]>
+              <![CDATA[Failed to instantiate class stepdef.Homepagestepdef]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null
-at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
-at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:262)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdef.Homepagestepdef
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 43 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at stepdef.BaseStep.<init>(BaseStep.java:34)
+at stepdef.Homepagestepdef.<init>(Homepagestepdef.java:15)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:08 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:09 GMT-05:00" duration-ms="1063" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="17" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -906,21 +605,74 @@ at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null]]>
+              <![CDATA[Failed to instantiate class stepdef.Homepagestepdef]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null
-at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
-at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:277)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdef.Homepagestepdef
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 43 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at stepdef.BaseStep.<init>(BaseStep.java:34)
+at stepdef.Homepagestepdef.<init>(Homepagestepdef.java:15)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:09 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:10 GMT-05:00" duration-ms="1151" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="17" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -933,21 +685,74 @@ at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null]]>
+              <![CDATA[Failed to instantiate class stepdef.Homepagestepdef]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null
-at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
-at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:291)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdef.Homepagestepdef
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 43 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at stepdef.BaseStep.<init>(BaseStep.java:34)
+at stepdef.Homepagestepdef.<init>(Homepagestepdef.java:15)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:10 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:12 GMT-05:00" duration-ms="1855" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="32" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -960,21 +765,74 @@ at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null]]>
+              <![CDATA[Failed to instantiate class stepdef.Homepagestepdef]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null
-at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
-at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:305)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdef.Homepagestepdef
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 43 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at stepdef.BaseStep.<init>(BaseStep.java:34)
+at stepdef.Homepagestepdef.<init>(Homepagestepdef.java:15)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:12 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:13 GMT-05:00" duration-ms="1269" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="14" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -987,501 +845,74 @@ at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null]]>
+              <![CDATA[Failed to instantiate class stepdef.Homepagestepdef]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageobject.LinkedListPageObject.click_Intro_tryhere()" because "this.llPageObject" is null
-at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
-at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:319)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdef.Homepagestepdef
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 43 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at stepdef.BaseStep.<init>(BaseStep.java:34)
+at stepdef.Homepagestepdef.<init>(Homepagestepdef.java:15)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:13 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:18 GMT-05:00" duration-ms="5284" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test the Introduction Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:18 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:22 GMT-05:00" duration-ms="3214" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test the Create Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:22 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:27 GMT-05:00" duration-ms="5378" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test the TypesOf Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:27 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:33 GMT-05:00" duration-ms="5481" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test the Implement Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:33 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:38 GMT-05:00" duration-ms="5067" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test the Traversal Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:38 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:43 GMT-05:00" duration-ms="4924" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test the Insert Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:43 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:45 GMT-05:00" duration-ms="2936" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test the Delete Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:45 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:51 GMT-05:00" duration-ms="5204" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Introduction Page Introduction Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:51 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:15:56 GMT-05:00" duration-ms="5165" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Introduction Page Creating LinkedList Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:15:56 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:16:01 GMT-05:00" duration-ms="5104" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Introduction Page TyesOf LinkedList Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:16:01 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:16:06 GMT-05:00" duration-ms="5144" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Introduction Page Implement Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:16:06 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:16:11 GMT-05:00" duration-ms="5156" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Introduction Page Traverse LinkedList Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:16:11 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:16:16 GMT-05:00" duration-ms="5135" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Introduction Page Insert LinkedList Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:16:16 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:16:21 GMT-05:00" duration-ms="5049" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Introduction Page Delete LinkedList Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:16:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:16:27 GMT-05:00" duration-ms="5133" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Introduction Practise Question Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:16:27 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:16:31 GMT-05:00" duration-ms="4156" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:16:31 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:16:32 GMT-05:00" duration-ms="1480" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:16:32 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:16:36 GMT-05:00" duration-ms="3681" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:16:36 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:16:39 GMT-05:00" duration-ms="3556" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:16:39 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:16:43 GMT-05:00" duration-ms="3742" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:16:43 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:16:47 GMT-05:00" duration-ms="3772" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:16:47 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:16:49 GMT-05:00" duration-ms="1699" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["feature to test LinkedList page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:16:49 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:16:55 GMT-05:00" duration-ms="5961" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Queue Page Implement Queue Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:16:55 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:17:01 GMT-05:00" duration-ms="5891" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Queue Page Implement DeQue Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:17:01 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:17:06 GMT-05:00" duration-ms="5881" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Queue Page Implement Array Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:17:06 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:17:12 GMT-05:00" duration-ms="5750" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Queue Page Implement Queue Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:17:12 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:17:18 GMT-05:00" duration-ms="5924" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Implement Queue Page Implement Queue Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:17:18 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:17:24 GMT-05:00" duration-ms="6224" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Implement Queue Page Implement DeQue Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:17:24 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:17:30 GMT-05:00" duration-ms="6022" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Implement Queue Page Implement Array Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:17:30 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:17:36 GMT-05:00" duration-ms="6046" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Implement  Page Implement Queue Opt Link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:17:36 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:17:42 GMT-05:00" duration-ms="6001" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="18" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1494,151 +925,74 @@ at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject
               </value>
             </param>
           </params>
-          <exception class="org.junit.ComparisonFailure">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[expected:<[ Practice Questions ]> but was:<[Practice Questions]>]]>
+              <![CDATA[Failed to instantiate class stepdef.Homepagestepdef]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.junit.ComparisonFailure: expected:<[ Practice Questions ]> but was:<[Practice Questions]>
-at org.junit.Assert.assertEquals(Assert.java:117)
-at org.junit.Assert.assertEquals(Assert.java:146)
-at stepdef.QueuePageStep.user_navigated_to_practise_test_page(QueuePageStep.java:92)
-at ✽.User navigated to Practise Test page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/FQueue.feature:60)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdef.Homepagestepdef
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 43 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at stepdef.BaseStep.<init>(BaseStep.java:34)
+at stepdef.Homepagestepdef.<init>(Homepagestepdef.java:15)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.junit.ComparisonFailure -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:17:42 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:17:44 GMT-05:00" duration-ms="1423" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:17:44 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:17:45 GMT-05:00" duration-ms="1453" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:17:45 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:17:47 GMT-05:00" duration-ms="1318" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:17:47 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:17:48 GMT-05:00" duration-ms="1518" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:17:48 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:17:54 GMT-05:00" duration-ms="6001" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Graph page Graph link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test the Graph page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:17:54 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:18:00 GMT-05:00" duration-ms="6370" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Graph page Graph Represent link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test the Graph page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:18:00 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:18:07 GMT-05:00" duration-ms="6192" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Sub Graph page Graph link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test the Graph page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:18:07 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:18:13 GMT-05:00" duration-ms="6215" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test Sub Graph page Graph Represent link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test the Graph page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:18:13 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:18:19 GMT-05:00" duration-ms="6440" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="12" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1651,21 +1005,74 @@ at ✽.User navigated to Practise Test page(file:///C:/Users/golda/git/DsAlgoPro
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null]]>
+              <![CDATA[Failed to instantiate class stepdef.Homepagestepdef]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
-at stepdef.QueuePageStep.user_navigated_to_practise_test_page(QueuePageStep.java:91)
-at ✽.User navigated to Practise Test page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:35)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdef.Homepagestepdef
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 43 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at stepdef.BaseStep.<init>(BaseStep.java:34)
+at stepdef.Homepagestepdef.<init>(Homepagestepdef.java:15)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:18:19 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:18:25 GMT-05:00" duration-ms="6168" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="17" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1678,21 +1085,74 @@ at ✽.User navigated to Practise Test page(file:///C:/Users/golda/git/DsAlgoPro
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null]]>
+              <![CDATA[Failed to instantiate class stepdef.Homepagestepdef]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
-at stepdef.QueuePageStep.user_navigated_to_practise_test_page(QueuePageStep.java:91)
-at ✽.User navigated to Practise Test page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:41)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdef.Homepagestepdef
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 43 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at stepdef.BaseStep.<init>(BaseStep.java:34)
+at stepdef.Homepagestepdef.<init>(Homepagestepdef.java:15)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:18:25 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:18:26 GMT-05:00" duration-ms="963" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="13" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1705,21 +1165,74 @@ at ✽.User navigated to Practise Test page(file:///C:/Users/golda/git/DsAlgoPro
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[Cannot invoke "util.ExcelReader.getData(String)" because "this.xcelRead" is null]]>
+              <![CDATA[Failed to instantiate class stepdef.Homepagestepdef]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "util.ExcelReader.getData(String)" because "this.xcelRead" is null
-at stepdef.TryEditorPageStep.user_enters_data_from_and(TryEditorPageStep.java:53)
-at ✽.User enters data from "Sheet1" and 0(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:48)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdef.Homepagestepdef
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 43 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at stepdef.BaseStep.<init>(BaseStep.java:34)
+at stepdef.Homepagestepdef.<init>(Homepagestepdef.java:15)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:18:26 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:18:28 GMT-05:00" duration-ms="1125" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="14" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1732,25 +1245,78 @@ at ✽.User enters data from "Sheet1" and 0(file:///C:/Users/golda/git/DsAlgoPro
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[Cannot invoke "util.ExcelReader.getData(String)" because "this.xcelRead" is null]]>
+              <![CDATA[Failed to instantiate class stepdef.Homepagestepdef]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "util.ExcelReader.getData(String)" because "this.xcelRead" is null
-at stepdef.TryEditorPageStep.user_enters_data_from_and(TryEditorPageStep.java:53)
-at ✽.User enters data from "Sheet1" and 0(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:61)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdef.Homepagestepdef
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 43 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at stepdef.BaseStep.<init>(BaseStep.java:34)
+at stepdef.Homepagestepdef.<init>(Homepagestepdef.java:15)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.DsAlgoTestNGRunner@5e7cd6cc]" started-at="2024-11-24T11:18:28 GMT-05:00" name="tearDownClass" finished-at="2024-11-24T11:18:28 GMT-05:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.DsAlgoTestNGRunner@97e93f1]" started-at="2024-11-24T11:42:02 GMT-05:00" name="tearDownClass" finished-at="2024-11-24T11:42:02 GMT-05:00" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- runner.DsAlgoTestNGRunner -->
-    </test> <!-- TestChrome -->
-  </suite> <!-- Suite -->
+    </test> <!-- TestChrome(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
 </testng-results>
