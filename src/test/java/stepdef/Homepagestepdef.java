@@ -119,7 +119,7 @@ public void user_navigated_to_tree_page() {
 
 @When("user clicks the Tree Get Started button")
 public void user_clicks_the_tree_get_started_button() {
-	homeObject.graphGetStarted();
+	homeObject.treeGetStarted();
 }
 
 @When("user clicks the Graph Get Started button")

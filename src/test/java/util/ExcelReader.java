@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.Logger;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -13,11 +15,19 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ExcelReader {
 	
 	XSSFWorkbook workbook = null;
+	Logger logg = (Logger) LogManager.getLogger(ExcelReader.class);
 	
-	public ExcelReader(String path) throws IOException
+	public ExcelReader(String path) 
 	{
-		FileInputStream inputStream = new FileInputStream(path);		
-		 workbook = new XSSFWorkbook(inputStream);
+		try
+		{
+			FileInputStream inputStream = new FileInputStream(path);		
+			 workbook = new XSSFWorkbook(inputStream);
+		}catch(Exception e)
+		{
+			logg.error(e.getMessage());
+		}
+		
 		
 	}
 		
