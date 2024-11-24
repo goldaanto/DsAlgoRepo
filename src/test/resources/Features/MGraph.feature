@@ -12,7 +12,7 @@ Background:
   Scenario: Test Graph page Graph Represent link
     Given User is on Graph Page
     When User clicks on Graph Represent link
-    Then User navigated to Graph page
+    Then User navigated to Graph Represent page
 
 
 

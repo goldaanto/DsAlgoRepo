@@ -44,7 +44,7 @@ public void user_clicks_on_graph_represent_link() {
 @Given("User is on Sub Graph Page")
 public void user_is_on_sub_graph_page() {
 	driver = HookPages.getDriver();
-	driver.get("https://dsportalapp.herokuapp.com/graph/graph/");
+	//driver.get("https://dsportalapp.herokuapp.com/graph/graph/");
 	graphPageObject = new GraphPageObject(driver);
    
 }
@@ -67,8 +67,11 @@ public void user_navigated_to_try_here_page() throws InterruptedException {
 public void user_is_on_sub_graph_represent_page() {
 	
 	driver = HookPages.getDriver();
-	driver.get("https://dsportalapp.herokuapp.com/graph/graph-representations/");
-	graphPageObject = new GraphPageObject(driver);
+	//driver.get("https://dsportalapp.herokuapp.com/graph/graph-representations/");
+	if(graphPageObject== null)
+	{
+		graphPageObject = new GraphPageObject(driver);
+	}
     
 }
 

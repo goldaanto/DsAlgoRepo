@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>TestChrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>79/17/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>80/16/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Nov 23 22:57:07 EST 2024</td>
+<td>Started on:</td><td>Sun Nov 24 11:12:58 EST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>303 seconds (303521 ms)</td>
+<tr><td>Total time:</td><td>329 seconds (329945 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -85,23 +85,19 @@ function toggleAllBoxes() {
 	at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
 	at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:262)
 </pre></div></td>
-<td>0</td>
+<td>1</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Graph page Graph Represent link", "Test the Graph page"</td>
-<td><div><pre>org.junit.ComparisonFailure: expected:&lt;Graph[]&gt; but was:&lt;Graph[ Representations]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at stepdef.Homepagestepdef.user_navigated_to_graph_page(Homepagestepdef.java:158)
-	at ✽.User navigated to Graph page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:15)
-</pre></div><a href='#' onClick='toggleBox("stack-trace932325687", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace932325687'><pre>org.junit.ComparisonFailure: expected:&lt;Graph[]&gt; but was:&lt;Graph[ Representations]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at stepdef.Homepagestepdef.user_navigated_to_graph_page(Homepagestepdef.java:158)
-	at ✽.User navigated to Graph page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:15)
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Sub Graph Page Practise Test Link", "Test the Graph page"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
+	at stepdef.QueuePageStep.user_navigated_to_practise_test_page(QueuePageStep.java:91)
+	at ✽.User navigated to Practise Test page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:35)
+</pre></div><a href='#' onClick='toggleBox("stack-trace116850709", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace116850709'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
+	at stepdef.QueuePageStep.user_navigated_to_practise_test_page(QueuePageStep.java:91)
+	at ✽.User navigated to Practise Test page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:35)
 </pre></div></td>
-<td>5</td>
+<td>6</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
@@ -113,7 +109,7 @@ function toggleAllBoxes() {
 	at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
 	at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:291)
 </pre></div></td>
-<td>0</td>
+<td>1</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
@@ -140,40 +136,16 @@ function toggleAllBoxes() {
 <td>1</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test the Graph page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;util.ExcelReader.getData(String)&quot; because &quot;this.xcelRead&quot; is null
-	at stepdef.TryEditorPageStep.user_enters_data_from_and(TryEditorPageStep.java:53)
-	at ✽.User enters data from &quot;Sheet1&quot; and 0(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:48)
-</pre></div><a href='#' onClick='toggleBox("stack-trace90777699", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace90777699'><pre>java.lang.NullPointerException: Cannot invoke &quot;util.ExcelReader.getData(String)&quot; because &quot;this.xcelRead&quot; is null
-	at stepdef.TryEditorPageStep.user_enters_data_from_and(TryEditorPageStep.java:53)
-	at ✽.User enters data from &quot;Sheet1&quot; and 0(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:48)
-</pre></div></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test the Graph page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;util.ExcelReader.getData(String)&quot; because &quot;this.xcelRead&quot; is null
-	at stepdef.TryEditorPageStep.user_enters_data_from_and(TryEditorPageStep.java:53)
-	at ✽.User enters data from &quot;Sheet1&quot; and 0(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:61)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1749169032", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1749169032'><pre>java.lang.NullPointerException: Cannot invoke &quot;util.ExcelReader.getData(String)&quot; because &quot;this.xcelRead&quot; is null
-	at stepdef.TryEditorPageStep.user_enters_data_from_and(TryEditorPageStep.java:53)
-	at ✽.User enters data from &quot;Sheet1&quot; and 0(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:61)
-</pre></div></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
-<tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Sub Graph Represent Page Practise Test Link", "Test the Graph page"</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
 	at stepdef.QueuePageStep.user_navigated_to_practise_test_page(QueuePageStep.java:91)
 	at ✽.User navigated to Practise Test page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:41)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1224302486", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1224302486'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
+</pre></div><a href='#' onClick='toggleBox("stack-trace52439501", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace52439501'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
 	at stepdef.QueuePageStep.user_navigated_to_practise_test_page(QueuePageStep.java:91)
 	at ✽.User navigated to Practise Test page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:41)
 </pre></div></td>
-<td>5</td>
+<td>6</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
@@ -184,6 +156,18 @@ function toggleAllBoxes() {
 <div class='stack-trace' id='stack-trace1022388737'><pre>java.lang.NullPointerException: Cannot invoke &quot;pageobject.LinkedListPageObject.click_Intro_tryhere()&quot; because &quot;this.llPageObject&quot; is null
 	at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
 	at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:305)
+</pre></div></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test the Graph page"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;util.ExcelReader.getData(String)&quot; because &quot;this.xcelRead&quot; is null
+	at stepdef.TryEditorPageStep.user_enters_data_from_and(TryEditorPageStep.java:53)
+	at ✽.User enters data from &quot;Sheet1&quot; and 0(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:48)
+</pre></div><a href='#' onClick='toggleBox("stack-trace557569642", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace557569642'><pre>java.lang.NullPointerException: Cannot invoke &quot;util.ExcelReader.getData(String)&quot; because &quot;this.xcelRead&quot; is null
+	at stepdef.TryEditorPageStep.user_enters_data_from_and(TryEditorPageStep.java:53)
+	at ✽.User enters data from &quot;Sheet1&quot; and 0(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:48)
 </pre></div></td>
 <td>0</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
@@ -197,7 +181,7 @@ function toggleAllBoxes() {
 	at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
 	at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:205)
 </pre></div></td>
-<td>0</td>
+<td>1</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
@@ -209,7 +193,19 @@ function toggleAllBoxes() {
 	at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
 	at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:191)
 </pre></div></td>
-<td>0</td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test the Graph page"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;util.ExcelReader.getData(String)&quot; because &quot;this.xcelRead&quot; is null
+	at stepdef.TryEditorPageStep.user_enters_data_from_and(TryEditorPageStep.java:53)
+	at ✽.User enters data from &quot;Sheet1&quot; and 0(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:61)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1373029421", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1373029421'><pre>java.lang.NullPointerException: Cannot invoke &quot;util.ExcelReader.getData(String)&quot; because &quot;this.xcelRead&quot; is null
+	at stepdef.TryEditorPageStep.user_enters_data_from_and(TryEditorPageStep.java:53)
+	at ✽.User enters data from &quot;Sheet1&quot; and 0(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:61)
+</pre></div></td>
+<td>1</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
@@ -221,7 +217,7 @@ function toggleAllBoxes() {
 	at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
 	at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:277)
 </pre></div></td>
-<td>0</td>
+<td>1</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement  Page Practise Test Link", "Test Queue page"</td>
@@ -237,7 +233,7 @@ function toggleAllBoxes() {
 	at stepdef.QueuePageStep.user_navigated_to_practise_test_page(QueuePageStep.java:92)
 	at ✽.User navigated to Practise Test page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/FQueue.feature:60)
 </pre></div></td>
-<td>5</td>
+<td>6</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
@@ -249,7 +245,7 @@ function toggleAllBoxes() {
 	at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
 	at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:220)
 </pre></div></td>
-<td>0</td>
+<td>1</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
@@ -261,7 +257,7 @@ function toggleAllBoxes() {
 	at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
 	at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:177)
 </pre></div></td>
-<td>0</td>
+<td>1</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
@@ -273,19 +269,7 @@ function toggleAllBoxes() {
 	at stepdef.LinkedListPageStep.user_clicks_on_sub_try_here_link(LinkedListPageStep.java:219)
 	at ✽.User clicks on sub Try Here link(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGTree.feature:319)
 </pre></div></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Sub Graph Page Practise Test Link", "Test the Graph page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
-	at stepdef.QueuePageStep.user_navigated_to_practise_test_page(QueuePageStep.java:91)
-	at ✽.User navigated to Practise Test page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:35)
-</pre></div><a href='#' onClick='toggleBox("stack-trace492815168", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace492815168'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
-	at stepdef.QueuePageStep.user_navigated_to_practise_test_page(QueuePageStep.java:91)
-	at ✽.User navigated to Practise Test page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/MGraph.feature:35)
-</pre></div></td>
-<td>5</td>
+<td>1</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -299,12 +283,12 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Register Link", "feature to test the home page"</td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Traverse LinkedList Link", "feature to test LinkedList page"</td>
 <td></td>
-<td>4</td>
+<td>5</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Impl Binary Search link", "Test Tree page"</td>
@@ -324,7 +308,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Binary Trees link", "Test Tree page"</td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Queue Page Implement DeQue Link", "Test Queue page"</td>
@@ -334,12 +318,12 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Graph page Graph link", "Test the Graph page"</td>
 <td></td>
-<td>5</td>
+<td>6</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Impl Python link", "Test Tree page"</td>
 <td></td>
-<td>12</td>
+<td>3</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of Stack  tab.", "feature to test the home page"</td>
@@ -349,17 +333,17 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Insert LinkedList Link", "feature to test LinkedList page"</td>
 <td></td>
-<td>4</td>
+<td>5</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement Queue Page Implement Array Link", "Test Queue page"</td>
 <td></td>
-<td>5</td>
+<td>6</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page TyesOf LinkedList Link", "feature to test LinkedList page"</td>
 <td></td>
-<td>4</td>
+<td>5</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement Queue Page Implement Queue Link", "Test Queue page"</td>
@@ -369,7 +353,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test  Overview Overview Trees link", "Test Tree page"</td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Introduction Link", "feature to test LinkedList page"</td>
@@ -389,17 +373,12 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
 <td></td>
-<td>0</td>
+<td>1</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Impl Binary Trees link", "Test Tree page"</td>
 <td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Sub Graph page Graph Represent link", "Test the Graph page"</td>
-<td></td>
-<td>5</td>
+<td>3</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of graph tab.", "feature to test the home page"</td>
@@ -409,17 +388,17 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Binary Trees link", "Test Tree page"</td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Terminologies link", "Test Tree page"</td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Impl Binary Search link", "Test Tree page"</td>
@@ -434,22 +413,27 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Traversal Link", "feature to test LinkedList page"</td>
 <td></td>
-<td>4</td>
+<td>5</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview illustration link", "Test Tree page"</td>
 <td></td>
-<td>2</td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Sub Graph page Graph Represent link", "Test the Graph page"</td>
+<td></td>
+<td>6</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement  Page Implement Queue Opt Link", "Test Queue page"</td>
 <td></td>
-<td>5</td>
+<td>6</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Impl Python link", "Test Tree page"</td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Binary Traversals link", "Test Tree page"</td>
@@ -459,7 +443,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Introduction Link", "feature to test LinkedList page"</td>
 <td></td>
-<td>4</td>
+<td>5</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of tree tab.", "feature to test the home page"</td>
@@ -472,24 +456,24 @@ function toggleAllBoxes() {
 <td>2</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Graph page Graph Represent link", "Test the Graph page"</td>
+<td></td>
+<td>6</td>
+<td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
+<tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Types Binary Trees link", "Test Tree page"</td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
 <td></td>
-<td>3</td>
+<td>4</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Types Trees link", "Test Tree page"</td>
 <td></td>
 <td>2</td>
-<td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Sub Graph page Graph link", "Test the Graph page"</td>
-<td></td>
-<td>5</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Traversals link", "Test Tree page"</td>
@@ -504,12 +488,17 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
 <td></td>
-<td>0</td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Impl Practice Question link", "Test Tree page"</td>
+<td></td>
+<td>1</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Create Link", "feature to test LinkedList page"</td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Binary Traversals link", "Test Tree page"</td>
@@ -529,17 +518,17 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Binary Search link", "Test Tree page"</td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement Queue Page Implement DeQue Link", "Test Queue page"</td>
 <td></td>
-<td>5</td>
+<td>6</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Types Binary Trees link", "Test Tree page"</td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
@@ -549,7 +538,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Implement Link", "feature to test LinkedList page"</td>
 <td></td>
-<td>4</td>
+<td>5</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Overview Trees link", "Test Tree page"</td>
@@ -559,12 +548,12 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
 <td></td>
-<td>0</td>
+<td>1</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Practise Question Link", "feature to test LinkedList page"</td>
 <td></td>
-<td>4</td>
+<td>5</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Queue Page Implement Array Link", "Test Queue page"</td>
@@ -584,7 +573,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
 <td></td>
-<td>0</td>
+<td>1</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Registration Page", "feature to test the home page"</td>
@@ -614,17 +603,17 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
 <td></td>
-<td>0</td>
+<td>1</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Delete LinkedList Link", "feature to test LinkedList page"</td>
 <td></td>
-<td>4</td>
+<td>5</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Terminologies link", "Test Tree page"</td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Application Binary Tree link", "Test Tree page"</td>
@@ -634,12 +623,12 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Types Trees link", "Test Tree page"</td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Impl Practice Question link", "Test Tree page"</td>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Sub Graph page Graph link", "Test the Graph page"</td>
 <td></td>
-<td>1</td>
+<td>6</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Delete Link", "feature to test LinkedList page"</td>
@@ -654,12 +643,12 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Traversals link", "Test Tree page"</td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Creating LinkedList Link", "feature to test LinkedList page"</td>
 <td></td>
-<td>4</td>
+<td>5</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Registration Page", "feature to test the home page"</td>
@@ -689,7 +678,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
 <td></td>
-<td>0</td>
+<td>1</td>
 <td>runner.DsAlgoTestNGRunner@5e7cd6cc</td></tr>
 </table><p>
 </body>
