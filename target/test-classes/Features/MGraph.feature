@@ -32,14 +32,9 @@ Background:
     Given User is on Graph Page
     And User clicks on Graph link
     When User clicks on Graph Practise Test link
-    Then User navigated to Practise Test page
+    Then User navigated to Graph Practise Test page
 
-    Scenario: Test Sub Graph Represent Page Practise Test Link
-    Given User is on Graph Page
-    And User clicks on Graph Represent link
-    When User clicks on Graph Practise Test link
-    Then User navigated to Practise Test page
-    
+   
     
      Scenario Outline:
 Given User is on Graph Page
@@ -57,7 +52,7 @@ Then Statement will be executed and Result shown
        Scenario Outline:
 Given User is on Graph Page
 And User clicks on Graph Represent link
-When User clicks on Graph Try Here link
+When User clicks on Graph Represent Try Here link
 And User enters data from "<Sheet>" and <RowNum>
 And User clicks on Run button
 Then Statement will be executed and Result shown

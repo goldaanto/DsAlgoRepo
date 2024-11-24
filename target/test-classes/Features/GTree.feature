@@ -167,14 +167,14 @@ Feature: Test Tree page
     Given User is on Tree page
     And User clicks on Tree Overview Link
     And User is on Overview Tree page
-    When User clicks on Practice Questions Like
-    Then User navigated to Practice  Page
+    When User clicks on Tree Practice Questions Link
+    Then User navigated to Tree Practice  Page
 
   Scenario Outline: 
     Given User is on Tree page
     And User clicks on Tree Overview Link
     And User is on Overview Sub page
-    When User clicks on sub Try Here link
+    When User clicks on sub tree Try Here link
     And User is on the Try Editor Page
     And User enters data from "<Sheet>" and <RowNum>
     And User clicks on Run button
@@ -188,7 +188,7 @@ Feature: Test Tree page
     Given User is on Tree page
     And User clicks on Terminologies Link
     And User is on Overview Sub page
-    When User clicks on sub Try Here link
+    When User clicks on sub tree Try Here link
     And User is on the Try Editor Page
     And User enters data from "<Sheet>" and <RowNum>
     And User clicks on Run button
@@ -202,7 +202,7 @@ Feature: Test Tree page
     Given User is on Tree page
     And User clicks on Types Trees Link
     And User is on Overview Sub page
-    When User clicks on sub Try Here link
+    When User clicks on sub tree Try Here link
     And User is on the Try Editor Page
     And User enters data from "<Sheet>" and <RowNum>
     And User clicks on Run button
@@ -217,7 +217,7 @@ Feature: Test Tree page
     Given User is on Tree page
     And User clicks on Illustration Link
     And User is on Overview Sub page
-    When User clicks on sub Try Here link
+    When User clicks on sub tree Try Here link
     And User is on the Try Editor Page
     And User enters data from "<Sheet>" and <RowNum>
     And User clicks on Run button
@@ -231,7 +231,7 @@ Feature: Test Tree page
     Given User is on Tree page
     And User clicks on Binary tree Link
     And User is on Overview Sub page
-    When User clicks on sub Try Here link
+    When User clicks on sub tree Try Here link
     And User is on the Try Editor Page
     And User enters data from "<Sheet>" and <RowNum>
     And User clicks on Run button
@@ -245,7 +245,7 @@ Feature: Test Tree page
     Given User is on Tree page   
     And User clicks on Types Binary Link
     And User is on Overview Sub page
-    When User clicks on sub Try Here link    
+    When User clicks on sub tree Try Here link    
     And User is on the Try Editor Page
     And User enters data from "<Sheet>" and <RowNum>
     And User clicks on Run button
@@ -259,7 +259,7 @@ Feature: Test Tree page
     Given User is on Tree page   
     And User clicks on Impl Binary  TreesLink
     And User is on Overview Sub page
-    When User clicks on sub Try Here link    
+    When User clicks on sub tree Try Here link    
     And User is on the Try Editor Page
     And User enters data from "<Sheet>" and <RowNum>
     And User clicks on Run button
@@ -274,7 +274,7 @@ Feature: Test Tree page
     Given User is on Tree page   
     And User clicks on Impl Python Link
     And User is on Overview Sub page
-    When User clicks on sub Try Here link    
+    When User clicks on sub tree Try Here link    
     And User is on the Try Editor Page
     And User enters data from "<Sheet>" and <RowNum>
     And User clicks on Run button
@@ -288,7 +288,7 @@ Feature: Test Tree page
     Given User is on Tree page   
     And User clicks on Appl Binary tree Link
     And User is on Overview Sub page
-    When User clicks on sub Try Here link    
+    When User clicks on sub tree Try Here link    
     And User is on the Try Editor Page
     And User enters data from "<Sheet>" and <RowNum>
     And User clicks on Run button
@@ -302,7 +302,7 @@ Feature: Test Tree page
     Given User is on Tree page   
     And User clicks on Binary Search Link
     And User is on Overview Sub page
-    When User clicks on sub Try Here link    
+    When User clicks on sub tree Try Here link    
     And User is on the Try Editor Page
     And User enters data from "<Sheet>" and <RowNum>
     And User clicks on Run button
@@ -316,7 +316,7 @@ Feature: Test Tree page
     Given User is on Tree page   
     And User clicks on Impl Binary  Search Link
     And User is on Overview Sub page
-    When User clicks on sub Try Here link    
+    When User clicks on sub tree Try Here link    
     And User is on the Try Editor Page
     And User enters data from "<Sheet>" and <RowNum>
     And User clicks on Run button

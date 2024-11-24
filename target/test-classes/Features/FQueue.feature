@@ -56,14 +56,14 @@ Feature: Test Queue page
     Given User is on Queue page
     And User clicks on Implement Queue link
     And User is on Implement Queue page
-    When User clicks on Practise Test link
-    Then User navigated to Practise Test page
+    When User clicks on Queue Practise Test link
+    Then User navigated to Queue Practise Test page
 
   Scenario Outline: 
     Given User is on Queue page
     And User clicks on Implement Queue link
     And User is on Queue Sub page
-    When User clicks on Try Here link
+    When User clicks on Queue Try Here link
     And User is on the Try Editor Page
     And User enters data from "<Sheet>" and <RowNum>
     And User clicks on Run button
@@ -77,7 +77,7 @@ Feature: Test Queue page
     Given User is on Queue page
     And User clicks on Implement DeQue link
     And User is on Queue Sub page
-    When User clicks on Try Here link
+    When User clicks on Queue Try Here link
     And User is on the Try Editor Page
     And User enters data from "<Sheet>" and <RowNum>
     And User clicks on Run button
@@ -91,7 +91,7 @@ Feature: Test Queue page
     Given User is on Queue page
     And User clicks on Implement Array link
     And User is on Queue Sub page
-    When User clicks on Try Here link
+    When User clicks on Queue Try Here link
     And User is on the Try Editor Page
     And User enters data from "<Sheet>" and <RowNum>
     And User clicks on Run button
@@ -105,7 +105,7 @@ Feature: Test Queue page
     Given User is on Queue page
     And User clicks on Queue Operation link
     And User is on Queue Sub page
-    When User clicks on Try Here link
+    When User clicks on Queue Try Here link
     And User is on the Try Editor Page
     And User enters data from "<Sheet>" and <RowNum>
     And User clicks on Run button
