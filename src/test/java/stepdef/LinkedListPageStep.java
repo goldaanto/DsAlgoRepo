@@ -1,14 +1,10 @@
 package stepdef;
 
-import java.util.concurrent.TimeUnit;
+
 
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 import hook.HookPages;
-
-import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -197,24 +193,23 @@ public class LinkedListPageStep extends BaseStep {
 		llPageObject.click_Intro_Delete();
 	}
 
-	@When("User clicks on sub Practise Question link")
-	public void user_clicks_on_sub_practise_question_link() {
+	@When("User clicks on sub Linked Practise Question link")
+	public void user_clicks_on_sub_linked_practise_question_link() {
 		System.out.println("user_clicks_on_sub_practise_question_linkuser_clicks_on_sub_practise_question_link"+llPageObject);
 		llPageObject.click_Intro_Practise();
 		
 		
 	}
 
-	@Then("User navigated to Practise Question page")
-	public void user_navigated_to_practise_question_page() throws InterruptedException {
-		Thread.sleep(2000);	
+	@Then("User navigated to Linked Practise Question page")
+	public void user_navigated_to_linked_practise_question_page() {
 		String title = driver.getTitle();
 		System.out.println("PractisePractisetitletitletitletitletitletitletitletitletitle"+title);
 		Assert.assertEquals("Practice Questions", title);
 	}	
 
-	@When("User clicks on sub Try Here link")
-	public void user_clicks_on_sub_try_here_link() {
+	@When("User clicks on sub Linked Try Here link")
+	public void user_clicks_on_sub_linked_try_here_link() {
 		
 		llPageObject.click_Intro_tryhere();
 	}

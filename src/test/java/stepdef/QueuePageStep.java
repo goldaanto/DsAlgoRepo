@@ -80,22 +80,26 @@ public class QueuePageStep {
 		}
 	}
 
-	@When("User clicks on Practise Test link")
-	public void user_clicks_on_practise_test_link() {
+	@When("User clicks on Queue Practise Test link")
+	public void user_clicks_on_queue_practise_test_link() {
 		queuePageObject.clickPractiseLink();
 	}
 
-	@Then("User navigated to Practise Test page")
-	public void user_navigated_to_practise_test_page() throws InterruptedException {
-		Thread.sleep(5000);	
+	@Then("User navigated to Queue Practise Test page")
+	public void user_navigated_to_queue_practise_test_page() {
 		String title = driver.getTitle();
 		Assert.assertEquals(" Practice Questions ", title);
 	}
-
-	@When("User clicks on Try Here link")
-	public void user_clicks_on_try_here_link() {
+	
+	@When("User clicks on Queue Try Here link")
+	public void user_clicks_on_queue_try_here_link() {
 		queuePageObject.clickTryHereLink();
 	}
+
+//	@When("User clicks on Try Here link")
+//	public void user_clicks_on_try_here_link() {
+//		queuePageObject.clickTryHereLink();
+//	}
 
 	@Then("User navigated to  Try Here page")
 	public void user_navigated_to_try_here_page() throws InterruptedException {

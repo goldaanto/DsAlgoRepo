@@ -1,5 +1,7 @@
 package stepdef;
 
+import java.util.ArrayList;
+
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
@@ -10,6 +12,7 @@ import io.cucumber.java.en.When;
 import pageobject.GraphPageObject;
 //https://dsportalapp.herokuapp.com/graph/
 import pageobject.TreePageObject;
+import util.ExcelReader;
 
 public class GraphPageStep {
 	WebDriver driver = null;
@@ -19,8 +22,11 @@ public class GraphPageStep {
 public void user_is_on_graph_page() {
 	
 	driver = HookPages.getDriver();
-	driver.get("https://dsportalapp.herokuapp.com/graph/");
-	graphPageObject = new GraphPageObject(driver);
+	//driver.get("https://dsportalapp.herokuapp.com/graph/");
+	if(graphPageObject==  null) {
+		graphPageObject = new GraphPageObject(driver);
+	}
+	
    
 }
 
@@ -45,20 +51,22 @@ public void user_clicks_on_graph_represent_link() {
 public void user_is_on_sub_graph_page() {
 	driver = HookPages.getDriver();
 	//driver.get("https://dsportalapp.herokuapp.com/graph/graph/");
-	graphPageObject = new GraphPageObject(driver);
+	if(graphPageObject==  null) {
+		graphPageObject = new GraphPageObject(driver);
+	}
    
 }
 
 @Then("User navigated to Graph Represent page")
 public void user_navigated_to_graph_represent_page() throws InterruptedException {
-	Thread.sleep(5000);	
+		
 	String title = driver.getTitle();
 	Assert.assertEquals("Graph Representations", title);
 }
 
 @Then("User navigated to Try Here page")
 public void user_navigated_to_try_here_page() throws InterruptedException {
-	Thread.sleep(5000);	
+	
 	String title = driver.getTitle();
 	Assert.assertEquals("Assessment", title);
 }
@@ -74,6 +82,22 @@ public void user_is_on_sub_graph_represent_page() {
 	}
     
 }
+@When("User clicks on Sub Graph link")
+public void user_clicks_on_sub_graph_link() {
+	graphPageObject.clickGraphLink();
+}
+
+@When("User clicks on Sub Graph Represent link")
+public void user_clicks_on_sub_graph_represent_link() {
+	graphPageObject.clickGraphRepLink();
+}
+
+
+
+@Then("User navigated to Graph Practise Test page")
+public void user_navigated_to_graph_practise_test_page() {
+	
+}
 
 
 @When("User clicks on Graph Practise Test link")
@@ -86,5 +110,39 @@ public void user_clicks_on_graph_try_here_link() {
 	graphPageObject.clickGraphLink();
 }
 
+@When("User clicks on Graph Represent Try Here link")
+public void user_clicks_on_graph_represent_try_here_link() {
+	graphPageObject.clickGraphRepLink();
+}
+
+@When("User enters graph data from {string} and {int}")
+public void user_enters_graph_data_from_and(String string, Integer int1) {
+	ExcelReader xcelRead = new ExcelReader(System.getProperty("user.dir")+"\\TestData\\\\tryeditordata.xlsx");
+	System.out.println("LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL"+ xcelRead);
+	ArrayList dataList = xcelRead.getData(string);
+	System.out.println("JJJJJJJJJJJJJJJJJJJJJJJJJ"+dataList.size());
+	
+	ArrayList data =  (ArrayList) dataList.get(int1);
+	System.out.println("datadatadatadatadatadatadatadatadatadatadata"+data.size());
+	
+	
+	String statement = (String) data.get(0);
+	
+	System.out.println("statementstatementstatementstatementstatementstatementstatement"+statement);
+	
+	
+	//graphPageObject.setTextAreaValue(statement);
+	
+}
+
+@When("User clicks on graph Run button")
+public void user_clicks_on_graph_run_button() {
+	//graphPageObject.clickRun();
+}
+
+@Then("graph Statement will be executed and Result shown")
+public void graph_statement_will_be_executed_and_result_shown() {
+   
+}
 
 }

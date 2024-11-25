@@ -209,18 +209,18 @@ public class TreePageStep {
 		treePageObject = new TreePageObject(driver);
 	}
 
-	@When("User clicks on Practice Questions Like")
-	public void user_clicks_on_practice_questions_like() {
+	@When("User clicks on Tree Practice Questions Link")
+	public void user_clicks_on_tree_practice_questions_link() {
 		treePageObject.click_practice_quest_Link();
 	}
 
-	@Then("User navigated to Practice  Page")
-	public void user_navigated_to_practice_page() {
+	@Then("User navigated to Tree Practice  Page")
+	public void user_navigated_to_tree_practice_page() {
 
 	}
 
-	@When("User clicks on Try Here Like")
-	public void user_clicks_on_try_here_like() {
+	@When("User clicks on sub tree Try Here link")
+	public void user_clicks_on_sub_tree_try_here_link() {
 		treePageObject.click_try_here_link();
 	}
 
@@ -232,84 +232,84 @@ public class TreePageStep {
 	@Given("User is on Terminologies Tree page")
 	public void user_is_on_terminologies_tree_page() {
 		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/tree/terminologies/");
+		//driver.get("https://dsportalapp.herokuapp.com/tree/terminologies/");
 		treePageObject = new TreePageObject(driver);
 	}
 
 	@Given("User is on TypesOf Tree page")
 	public void user_is_on_types_of_tree_page() {
 		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/tree/types-of-trees/");
+		//driver.get("https://dsportalapp.herokuapp.com/tree/types-of-trees/");
 		treePageObject = new TreePageObject(driver);
 	}
 
 	@Given("User is on Traversals Tree page")
 	public void user_is_on_traversals_tree_page() {
 		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/tree/tree-traversals/");
+	//	driver.get("https://dsportalapp.herokuapp.com/tree/tree-traversals/");
 		treePageObject = new TreePageObject(driver);
 	}
 
 	@Given("User is on Illustrations Tree page")
 	public void user_is_on_illustrations_tree_page() {
 		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/tree/traversals-illustration/");
+	//	driver.get("https://dsportalapp.herokuapp.com/tree/traversals-illustration/");
 		treePageObject = new TreePageObject(driver);
 	}
 
 	@Given("User is on Binary Tree page")
 	public void user_is_on_binary_tree_page() {
 		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/tree/binary-trees/");
+		//driver.get("https://dsportalapp.herokuapp.com/tree/binary-trees/");
 		treePageObject = new TreePageObject(driver);
 	}
 
 	@Given("User is on Types Binary Tree page")
 	public void user_is_on_types_binary_tree_page() {
 		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/tree/types-of-binary-trees/");
+		//driver.get("https://dsportalapp.herokuapp.com/tree/types-of-binary-trees/");
 		treePageObject = new TreePageObject(driver);
 	}
 
 	@Given("User is on Imple Python Tree page")
 	public void user_is_on_imple_python_tree_page() {
 		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/tree/implementation-in-python/");
+		//driver.get("https://dsportalapp.herokuapp.com/tree/implementation-in-python/");
 		treePageObject = new TreePageObject(driver);
 	}
 
 	@Given("User is on Binary Traversal Tree page")
 	public void user_is_on_binary_traversal_tree_page() {
 		driver = HookPages.getDriver();
-		driver.get("/https://dsportalapp.herokuapp.com/tree/binary-tree-traversals/");
+		//driver.get("/https://dsportalapp.herokuapp.com/tree/binary-tree-traversals/");
 		treePageObject = new TreePageObject(driver); 
 	}
 
 	@Given("User is on Imple Binary Tree page")
 	public void user_is_on_imple_binary_tree_page() {
 		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/tree/implementation-of-binary-trees/");
+		//driver.get("https://dsportalapp.herokuapp.com/tree/implementation-of-binary-trees/");
 		treePageObject = new TreePageObject(driver);
 	}
 
 	@Given("User is on Application Binary Tree page")
 	public void user_is_on_application_binary_tree_page() {
 		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/tree/applications-of-binary-trees/");
+		//driver.get("https://dsportalapp.herokuapp.com/tree/applications-of-binary-trees/");
 		treePageObject = new TreePageObject(driver); 
 	}
 
 	@Given("User is on Binary Search Tree page")
 	public void user_is_on_binary_search_tree_page() {
 		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/tree/binary-search-trees/");
+		//driver.get("https://dsportalapp.herokuapp.com/tree/binary-search-trees/");
 		treePageObject = new TreePageObject(driver);
 	}
 
 	@Given("User is on Impl BST Tree page")
 	public void user_is_on_impl_bst_tree_page() {
 		driver = HookPages.getDriver();
-		driver.get("https://dsportalapp.herokuapp.com/tree/implementation-of-bst/");
+		//driver.get("https://dsportalapp.herokuapp.com/tree/implementation-of-bst/");
 		treePageObject = new TreePageObject(driver);
 	}
 

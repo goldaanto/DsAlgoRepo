@@ -1,5 +1,7 @@
 package pageobject;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -29,6 +31,7 @@ public class GraphPageObject {
 	@FindBy(linkText = "Practice Questions") WebElement practice_loc;
 	
 	@FindBy(linkText = "Try here>>>") WebElement try_loc;
+	@FindBy(xpath = "//*[@id=\"answer_form\"]/button") WebElement button_loc;
 	
 	//Action
 	public void clickGraphLink()
@@ -36,6 +39,19 @@ public class GraphPageObject {
 		graph_loc.click();
 		
 	}
+	
+	public void setTextAreaValue(String param)
+	{
+		//String param = "Print("+"NumpyNinja"+")";
+		WebElement codeMirror_loc= driver.findElement(By.className("CodeMirror"));
+		WebElement codeLine = codeMirror_loc.findElements(By.className("CodeMirror-line")).get(0);
+		codeLine.click();
+		WebElement txtArea = codeMirror_loc.findElement(By.cssSelector("textarea"));
+		txtArea.sendKeys(Keys.CONTROL+"a"+Keys.DELETE);
+		txtArea.sendKeys(param);
+		
+	}
+	
 	
 	public void clickGraphRepLink()
 	{
@@ -49,5 +65,10 @@ public class GraphPageObject {
 	public void clickTryLink()
 	{
 		practice_loc.click();
+	}
+	
+	public void clickRun()
+	{
+		button_loc.click();
 	}
 }

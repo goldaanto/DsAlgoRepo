@@ -16,7 +16,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(features="src/test/resources/Features", 
 					glue={"stepdef","hook"},
-					plugin = {"pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}
+					plugin = {"pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm","json:target/cucumber.json"}
 					)
 //dsalog Runner
 public class DsAlgoTestNGRunner extends AbstractTestNGCucumberTests {

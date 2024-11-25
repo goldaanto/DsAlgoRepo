@@ -108,14 +108,14 @@ Scenario: Test Introduction Practise Question Link
 Given User is on LinkedList Page
 And  user clicks on Introduction link
 And User is on LinkedList Introduction page
-When User clicks on sub Practise Question link
-Then User navigated to Practise Question page
+When User clicks on sub Linked Practise Question link
+Then User navigated to Linked Practise Question page
 
 Scenario Outline:
 Given User is on LinkedList Page
 And  user clicks on Introduction link
 And User is on LinkedList Sub page
-When  User clicks on sub Try Here link 
+When  User clicks on sub Linked Try Here link 
 And User is on the Try Editor Page
 And User enters data from "<Sheet>" and <RowNum>
 And User clicks on Run button
@@ -130,7 +130,7 @@ Then Statement will be executed and Result shown
 Given User is on LinkedList Page
 And user clicks on Create LinkedList link
 And User is on LinkedList Sub page
-When  User clicks on sub Try Here link 
+When  User clicks on sub Linked Try Here link 
 And User is on the Try Editor Page
 And User enters data from "<Sheet>" and <RowNum>
 And User clicks on Run button
@@ -144,7 +144,7 @@ Scenario Outline:
 Given User is on LinkedList Page
 And user clicks on Types LinkedList link
 And User is on LinkedList Sub page
-When  User clicks on sub Try Here link 
+When  User clicks on sub Linked Try Here link 
 And User is on the Try Editor Page
 And User enters data from "<Sheet>" and <RowNum>
 And User clicks on Run button
@@ -158,7 +158,7 @@ Scenario Outline:
 Given User is on LinkedList Page
 And user clicks on Implement LinkedList link
 And User is on LinkedList Sub page
-When  User clicks on sub Try Here link 
+When  User clicks on sub Linked Try Here link 
 And User is on the Try Editor Page
 And User enters data from "<Sheet>" and <RowNum>
 And User clicks on Run button
@@ -173,7 +173,7 @@ Then Statement will be executed and Result shown
 Given User is on LinkedList Page
 And user clicks on Traversal LinkedList link
 And User is on LinkedList Sub page
-When  User clicks on sub Try Here link 
+When  User clicks on sub Linked Try Here link 
 And User is on the Try Editor Page
 And User enters data from "<Sheet>" and <RowNum>
 And User clicks on Run button
@@ -187,7 +187,7 @@ Then Statement will be executed and Result shown
 Given User is on LinkedList Page
 And user clicks on Insert LinkedList link
 And User is on LinkedList Sub page
-When  User clicks on sub Try Here link 
+When  User clicks on sub Linked Try Here link 
 And User is on the Try Editor Page
 And User enters data from "<Sheet>" and <RowNum>
 And User clicks on Run button
@@ -201,7 +201,7 @@ Then Statement will be executed and Result shown
 Given User is on LinkedList Page
 And user clicks on Delete LinkedList link
 And User is on LinkedList Sub page
-When  User clicks on sub Try Here link 
+When  User clicks on sub Linked Try Here link 
 And User is on the Try Editor Page
 And User enters data from "<Sheet>" and <RowNum>
 And User clicks on Run button
