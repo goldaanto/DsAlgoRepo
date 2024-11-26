@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 public class Homepageobject{
 //constructor
 	WebDriver driver = null;
@@ -32,6 +33,8 @@ public class Homepageobject{
 	@FindBy(linkText = "Sign in") WebElement sign_loc;
 	
 	@FindBy(linkText = "Register") WebElement register_loc;
+	
+	@FindBy(css = "body > div.alert.alert-primary")WebElement loginfail_loc;
 	
 	
 	
@@ -89,5 +92,11 @@ public class Homepageobject{
 	{
 		graph_loc.click();
 	}
+	public String checkLoginError()
+	{
+		String text = loginfail_loc.getText();
+		return text;
+	}
+	
 
 }

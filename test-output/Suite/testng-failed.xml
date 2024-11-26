@@ -6,10 +6,10 @@
     <classes>
       <class name="runner.DsAlgoTestNGRunner">
         <methods>
-          <include name="BeforeClass"/>
           <include name="setUpClass"/>
+          <include name="BeforeClass"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="45 93"/>
+          <include name="runScenario" invocation-numbers="37 28"/>
         </methods>
       </class> <!-- runner.DsAlgoTestNGRunner -->
     </classes>
