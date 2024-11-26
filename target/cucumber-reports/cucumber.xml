@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="66.218" tests="44" skipped="0" failures="0" errors="0">
-<testcase classname="feature to test the home page" name="Check the Register Link" time="4.406">
+<testsuite name="Cucumber" time="299.837" tests="124" skipped="0" failures="2" errors="0">
+<testcase classname="feature to test the home page" name="Check the Register Link" time="2.831">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks on Register Link...........................................passed
 Then user navigated to the Register Page....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Test the Registration Page - #1.1" time="4.924">
+<testcase classname="feature to test the home page" name="Test the Registration Page - #1.1" time="4.958">
 <system-out><![CDATA[
 Given I go to the Registration page.........................................passed
 When user get data from "Sheet1", 0.........................................passed
@@ -15,7 +15,7 @@ And Clicks on Submit button.................................................pass
 Then user  navigated to the home page.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Test the Registration Page - #1.2" time="3.697">
+<testcase classname="feature to test the home page" name="Test the Registration Page - #1.2" time="3.279">
 <system-out><![CDATA[
 Given I go to the Registration page.........................................passed
 When user get data from "Sheet1", 1.........................................passed
@@ -23,7 +23,7 @@ And Clicks on Submit button.................................................pass
 Then user  navigated to the home page.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Test the Registration Page - #1.3" time="3.54">
+<testcase classname="feature to test the home page" name="Test the Registration Page - #1.3" time="3.545">
 <system-out><![CDATA[
 Given I go to the Registration page.........................................passed
 When user get data from "Sheet1", 2.........................................passed
@@ -31,63 +31,63 @@ And Clicks on Submit button.................................................pass
 Then user  navigated to the home page.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check Before login get started button of Data Structure - intro tab." time="0.503">
+<testcase classname="feature to test the home page" name="Check Before login get started button of Data Structure - intro tab." time="0.49">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the DataStruct Get Started button..........................passed
 Then User navigated to error home page......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check Before login get started button of Array tab." time="0.472">
+<testcase classname="feature to test the home page" name="Check Before login get started button of Array tab." time="0.413">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
 Then User navigated to error home page......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check Before login get started button of Linked List tab." time="0.384">
+<testcase classname="feature to test the home page" name="Check Before login get started button of Linked List tab." time="0.624">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Linked Get Started button..............................passed
 Then User navigated to error home page......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check Before login get started button of Stack  tab." time="0.384">
+<testcase classname="feature to test the home page" name="Check Before login get started button of Stack  tab." time="0.648">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Stack Get Started button...............................passed
 Then User navigated to error home page......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check Before login get started button of Queue tab." time="0.376">
+<testcase classname="feature to test the home page" name="Check Before login get started button of Queue tab." time="0.504">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Queue Get Started button...............................passed
 Then User navigated to error home page......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check Before login get started button of tree tab." time="0.372">
+<testcase classname="feature to test the home page" name="Check Before login get started button of tree tab." time="0.406">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Tree Get Started button................................passed
 Then User navigated to error home page......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check Before login get started button of graph tab." time="0.378">
+<testcase classname="feature to test the home page" name="Check Before login get started button of graph tab." time="0.561">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Graph Get Started button...............................passed
 Then User navigated to error home page......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check the Sign in Link" time="0.307">
+<testcase classname="feature to test the home page" name="Check the Sign in Link" time="0.449">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks on SignIn Link.............................................passed
 Then user navigated to the login Page.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check login  with valid credentials. - #1.1" time="1.658">
+<testcase classname="feature to test the home page" name="Check login  with valid credentials. - #1.1" time="1.809">
 <system-out><![CDATA[
 Given I go to the login page................................................passed
 When user inputs data from "Sheet1" and 0...................................passed
@@ -95,7 +95,7 @@ And Clicks on login button..................................................pass
 Then user is navigated to the home page.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check login  with valid credentials. - #1.2" time="1.659">
+<testcase classname="feature to test the home page" name="Check login  with valid credentials. - #1.2" time="1.518">
 <system-out><![CDATA[
 Given I go to the login page................................................passed
 When user inputs data from "Sheet1" and 1...................................passed
@@ -103,7 +103,7 @@ And Clicks on login button..................................................pass
 Then user is navigated to the home page.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check login  with valid credentials. - #1.3" time="1.871">
+<testcase classname="feature to test the home page" name="Check login  with valid credentials. - #1.3" time="1.822">
 <system-out><![CDATA[
 Given I go to the login page................................................passed
 When user inputs data from "Sheet1" and 2...................................passed
@@ -111,56 +111,327 @@ And Clicks on login button..................................................pass
 Then user is navigated to the home page.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check get started button of Data Structure - intro tab." time="0.385">
+<testcase classname="feature to test the home page" name="Check get started button of Data Structure - intro tab." time="0.396">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the DataStruct Get Started button..........................passed
 Then User navigated to DataStruct page......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check get started button of Array tab." time="0.594">
+<testcase classname="feature to test the home page" name="Check get started button of Array tab." time="0.392">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
 Then User navigated to array page...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check get started button of Linked List tab." time="0.562">
+<testcase classname="feature to test the home page" name="Check get started button of Linked List tab." time="0.444">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Linked Get Started button..............................passed
 Then User navigated to LinkedList page......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check get started button of Stack  tab." time="0.608">
+<testcase classname="feature to test the home page" name="Check get started button of Stack  tab." time="0.364">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Stack Get Started button...............................passed
 Then User navigated to Stack page...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check get started button of Queue tab." time="0.494">
+<testcase classname="feature to test the home page" name="Check get started button of Queue tab." time="0.443">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Queue Get Started button...............................passed
 Then User navigated to Queue page...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check get started button of tree tab." time="0.696">
+<testcase classname="feature to test the home page" name="Check get started button of tree tab." time="0.431">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Tree Get Started button................................passed
 Then User navigated to Tree page............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test the home page" name="Check get started button of graph tab." time="0.569">
+<testcase classname="feature to test the home page" name="Check get started button of graph tab." time="0.386">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Graph Get Started button...............................passed
 Then User navigated to Graph page...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array page" name="Check the Array page" time="0.587">
+<testcase classname="feature to test LinkedList page" name="Test the Introduction Link" time="5.031">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+When user clicks on Introduction link.......................................passed
+Then user is navigated to Introduction page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="Test the Create Link" time="2.795">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+When user clicks on Create LinkedList link..................................passed
+Then user is navigated to Create LinkedList page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="Test the TypesOf Link" time="4.754">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+When user clicks on Types LinkedList link...................................passed
+Then user is navigated to Types LinkedList page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="Test the Implement Link" time="4.712">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+When user clicks on Implement LinkedList link...............................passed
+Then user is navigated to Implement page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="Test the Traversal Link" time="4.797">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+When user clicks on Traversal LinkedList link...............................passed
+Then user is navigated to Traversal page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="Test the Insert Link" time="4.663">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+When user clicks on Insert LinkedList link..................................passed
+Then user is navigated to Insert page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="Test the Delete Link" time="2.68">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+When user clicks on Delete LinkedList link..................................passed
+Then user is navigated to Delete page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="Test Introduction Page Introduction Link" time="5.051">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+And user clicks on Introduction link........................................passed
+And User is on LinkedList Introduction page.................................passed
+When user clicks on sub Introduction link...................................passed
+Then user is navigated to Introduction page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="Test Introduction Page Creating LinkedList Link" time="4.936">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+And user clicks on Introduction link........................................passed
+And User is on LinkedList Introduction page.................................passed
+When User clicks on sub creating LinkedList link............................passed
+Then user is navigated to Create LinkedList page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="Test Introduction Page TyesOf LinkedList Link" time="4.788">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+And user clicks on Introduction link........................................passed
+And User is on LinkedList Introduction page.................................passed
+When User clicks on sub TypesOf LinkedList link.............................passed
+Then user is navigated to Types LinkedList page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="Test Introduction Page Implement Link" time="4.876">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+And user clicks on Introduction link........................................passed
+And User is on LinkedList Introduction page.................................passed
+When User clicks on sub Implement link......................................passed
+Then user is navigated to Implement page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="Test Introduction Page Traverse LinkedList Link" time="4.848">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+And user clicks on Introduction link........................................passed
+And User is on LinkedList Introduction page.................................passed
+When User clicks on Traverse sub LinkedList link............................passed
+Then user is navigated to Traversal page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="Test Introduction Page Insert LinkedList Link" time="4.881">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+And user clicks on Introduction link........................................passed
+And User is on LinkedList Introduction page.................................passed
+When User clicks on sub Insert LinkedList link..............................passed
+Then user is navigated to Insert page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="Test Introduction Page Delete LinkedList Link" time="4.896">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+And user clicks on Introduction link........................................passed
+And User is on LinkedList Introduction page.................................passed
+When User clicks on sub Delete LinkedList link..............................passed
+Then user is navigated to Delete page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="Test Introduction Practise Question Link" time="2.877">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+And user clicks on Introduction link........................................passed
+And User is on LinkedList Introduction page.................................passed
+When User clicks on sub Linked Practise Question link.......................passed
+Then User navigated to Linked Practise Question page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="#1.1" time="3.779">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+And user clicks on Introduction link........................................passed
+And User is on LinkedList Sub page..........................................passed
+When User clicks on sub Linked Try Here link................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="#1.1" time="1.011">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+And user clicks on Create LinkedList link...................................passed
+And User is on LinkedList Sub page..........................................passed
+When User clicks on sub Linked Try Here link................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="#1.1" time="2.999">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+And user clicks on Types LinkedList link....................................passed
+And User is on LinkedList Sub page..........................................passed
+When User clicks on sub Linked Try Here link................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="#1.1" time="3.235">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+And user clicks on Implement LinkedList link................................passed
+And User is on LinkedList Sub page..........................................passed
+When User clicks on sub Linked Try Here link................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="#1.1" time="3.222">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+And user clicks on Traversal LinkedList link................................passed
+And User is on LinkedList Sub page..........................................passed
+When User clicks on sub Linked Try Here link................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="#1.1" time="3.169">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+And user clicks on Insert LinkedList link...................................passed
+And User is on LinkedList Sub page..........................................passed
+When User clicks on sub Linked Try Here link................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test LinkedList page" name="#1.1" time="1.097">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Linked Get Started button..............................passed
+Then User navigated to LinkedList page......................................passed
+Given User is on LinkedList Page............................................passed
+And user clicks on Delete LinkedList link...................................passed
+And User is on LinkedList Sub page..........................................passed
+When User clicks on sub Linked Try Here link................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test the array page" name="Check the Array page" time="0.42">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -169,7 +440,7 @@ When user clicks on Scroll down button of array page........................pass
 Then user is scroll down to the end of the array page.......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array page" name="Check the Array in python page" time="1.178">
+<testcase classname="Feature to test the array page" name="Check the Array in python page" time="0.924">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -178,7 +449,7 @@ When User clicks on Arrays in Python Link...................................pass
 Then User navigated to Arrays in Python Page................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array page" name="Check the Array using list page" time="0.968">
+<testcase classname="Feature to test the array page" name="Check the Array using list page" time="0.753">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -187,7 +458,7 @@ When User clicks on Arrays Using List Link..................................pass
 Then User navigated to Arrays Using List Page...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array page" name="Check the Basic Operations in Lists page" time="1.029">
+<testcase classname="Feature to test the array page" name="Check the Basic Operations in Lists page" time="0.731">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -196,7 +467,7 @@ When User clicks on Basic Operations in Lists Link..........................pass
 Then User navigated to Basic Operations in Lists Page.......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array page" name="Check the Applications of Array page" time="0.911">
+<testcase classname="Feature to test the array page" name="Check the Applications of Array page" time="0.685">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -205,7 +476,7 @@ When User clicks on Applications of Array Link..............................pass
 Then User navigated to Applications of Array Page...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array page" name="Test Sub Array Page Arrays in Python Link" time="1.159">
+<testcase classname="Feature to test the array page" name="Test Sub Array Page Arrays in Python Link" time="0.91">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -216,7 +487,7 @@ When User clicks on Sub Arrays in Python Link...............................pass
 Then User navigated to Arrays in Python Page................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array page" name="#1.1" time="2.639">
+<testcase classname="Feature to test the array page" name="#1.1" time="1.687">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -231,7 +502,7 @@ And User clicks on Run button...............................................pass
 Then Statement will be executed and Result shown............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array page" name="Test Implement Queue Page Implement DeQue Link" time="1.379">
+<testcase classname="Feature to test the array page" name="Test Implement Queue Page Implement DeQue Link" time="0.936">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -242,7 +513,7 @@ When User clicks on Sub Arrays Using List Link..............................pass
 Then User navigated to Arrays Using List Page...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array page" name="#1.1" time="2.127">
+<testcase classname="Feature to test the array page" name="#1.1" time="1.712">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -257,7 +528,7 @@ And User clicks on Run button...............................................pass
 Then Statement will be executed and Result shown............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array page" name="Test Implement Queue Page Implement Array Link" time="1.204">
+<testcase classname="Feature to test the array page" name="Test Implement Queue Page Implement Array Link" time="1.253">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -268,7 +539,7 @@ When User clicks on Sub Basic Operations in Lists Link......................pass
 Then User navigated to Basic Operations in Lists Page.......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array page" name="#1.1" time="1.948">
+<testcase classname="Feature to test the array page" name="#1.1" time="1.805">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -283,7 +554,7 @@ And User clicks on Run button...............................................pass
 Then Statement will be executed and Result shown............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array page" name="Test Implement  Page Implement Queue Opt Link" time="1.315">
+<testcase classname="Feature to test the array page" name="Test Implement  Page Implement Queue Opt Link" time="0.913">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -294,7 +565,7 @@ When User clicks on Sub Applications of Array Link..........................pass
 Then User navigated to Applications of Array Page...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array page" name="#1.1" time="1.921">
+<testcase classname="Feature to test the array page" name="#1.1" time="2.08">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -309,7 +580,162 @@ And User clicks on Run button...............................................pass
 Then Statement will be executed and Result shown............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array practice questions page" name="Check the Search the array page" time="1.414">
+<testcase classname="Test Queue page" name="Test Queue Page Implement Queue Link" time="5.836">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Queue Get Started button...............................passed
+Given User is on Queue page.................................................passed
+When User clicks on Implement Queue link....................................passed
+Then User navigated to Implementation Queue page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Queue page" name="Test Queue Page Implement DeQue Link" time="5.893">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Queue Get Started button...............................passed
+Given User is on Queue page.................................................passed
+When User clicks on Implement DeQue link....................................passed
+Then User navigated to Implementation Collection page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Queue page" name="Test Queue Page Implement Array Link" time="5.587">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Queue Get Started button...............................passed
+Given User is on Queue page.................................................passed
+When User clicks on Implement Array link....................................passed
+Then User navigated to Implement Array page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Queue page" name="Test Queue Page Implement Queue Link" time="5.618">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Queue Get Started button...............................passed
+Given User is on Queue page.................................................passed
+When User clicks on Queue Operation link....................................passed
+Then User navigated to  Queue Operation page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Queue page" name="Test Implement Queue Page Implement Queue Link" time="5.729">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Queue Get Started button...............................passed
+Given User is on Queue page.................................................passed
+And User clicks on Implement Queue link.....................................passed
+And User is on Implement Queue page.........................................passed
+When User clicks on Implement Queue link....................................passed
+Then User navigated to Implementation Queue page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Queue page" name="Test Implement Queue Page Implement DeQue Link" time="6.191">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Queue Get Started button...............................passed
+Given User is on Queue page.................................................passed
+And User clicks on Implement Queue link.....................................passed
+And User is on Implement Queue page.........................................passed
+When User clicks on Implement DeQue link....................................passed
+Then User navigated to Implementation Collection page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Queue page" name="Test Implement Queue Page Implement Array Link" time="5.837">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Queue Get Started button...............................passed
+Given User is on Queue page.................................................passed
+And User clicks on Implement Queue link.....................................passed
+And User is on Implement Queue page.........................................passed
+When User clicks on Implement Array link....................................passed
+Then User navigated to Implement Array page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Queue page" name="Test Implement  Page Implement Queue Opt Link" time="5.811">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Queue Get Started button...............................passed
+Given User is on Queue page.................................................passed
+And User clicks on Implement Queue link.....................................passed
+And User is on Implement Queue page.........................................passed
+When User clicks on Queue Operation link....................................passed
+Then User navigated to  Queue Operation page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Queue page" name="Test Implement  Page Practise Test Link" time="2.362">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[ Practice Questions ]&gt; but was:&lt;[Practice Questions]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[ Practice Questions ]> but was:<[Practice Questions]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepdef.QueuePageStep.user_navigated_to_queue_practise_test_page(QueuePageStep.java:91)
+	at ✽.User navigated to Queue Practise Test page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/FQueue.feature:60)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Queue Get Started button...............................passed
+Given User is on Queue page.................................................passed
+And User clicks on Implement Queue link.....................................passed
+And User is on Implement Queue page.........................................passed
+When User clicks on Queue Practise Test link................................passed
+Then User navigated to Queue Practise Test page.............................failed
+]]></system-out>
+</testcase>
+<testcase classname="Test Queue page" name="#1.1" time="1.787">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Queue Get Started button...............................passed
+Given User is on Queue page.................................................passed
+And User clicks on Implement Queue link.....................................passed
+And User is on Queue Sub page...............................................passed
+When User clicks on Queue Try Here link.....................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Queue page" name="#1.1" time="1.833">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Queue Get Started button...............................passed
+Given User is on Queue page.................................................passed
+And User clicks on Implement DeQue link.....................................passed
+And User is on Queue Sub page...............................................passed
+When User clicks on Queue Try Here link.....................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Queue page" name="#1.1" time="1.46">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Queue Get Started button...............................passed
+Given User is on Queue page.................................................passed
+And User clicks on Implement Array link.....................................passed
+And User is on Queue Sub page...............................................passed
+When User clicks on Queue Try Here link.....................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Queue page" name="#1.1" time="1.769">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Queue Get Started button...............................passed
+Given User is on Queue page.................................................passed
+And User clicks on Queue Operation link.....................................passed
+And User is on Queue Sub page...............................................passed
+When User clicks on Queue Try Here link.....................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test the array practice questions page" name="Check the Search the array page" time="1.799">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -322,7 +748,7 @@ When User clicks on Search the array Link...................................pass
 Then User navigated to Search the array Page................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array practice questions page" name="Check Assessment page of search the array page - #1.1" time="2.364">
+<testcase classname="Feature to test the array practice questions page" name="Check Assessment page of search the array page - #1.1" time="2.51">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -337,7 +763,7 @@ When User gives the input from "SearchArray" and 0..........................pass
 Then User clicks the Run button and submit button...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array practice questions page" name="Check Assessment page with invalid input of search the array page - #1.1" time="2.127">
+<testcase classname="Feature to test the array practice questions page" name="Check Assessment page with invalid input of search the array page - #1.1" time="2.348">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -352,7 +778,7 @@ When User gives the input from "SearchArray" and 1..........................pass
 Then User clicks the Run button and submit button...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array practice questions page" name="Check the Max Consecutive Ones page" time="1.548">
+<testcase classname="Feature to test the array practice questions page" name="Check the Max Consecutive Ones page" time="1.962">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -365,7 +791,7 @@ When User clicks on Max Consecutive Ones Link...............................pass
 Then User navigated to Max Consecutive Ones Page............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array practice questions page" name="Check Assessment page of Max Consecutive Ones page - #1.1" time="2.338">
+<testcase classname="Feature to test the array practice questions page" name="Check Assessment page of Max Consecutive Ones page - #1.1" time="2.974">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -380,7 +806,7 @@ When User gives the input from "Max" and 0..................................pass
 Then User clicks the Run button and submit button...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array practice questions page" name="Check the Find Numbers with Even Number of Digits page" time="1.647">
+<testcase classname="Feature to test the array practice questions page" name="Check the Find Numbers with Even Number of Digits page" time="1.428">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -393,7 +819,7 @@ When User clicks on Find Numbers with Even Number of Digits Link............pass
 Then User navigated to Find Numbers with Even Number of Digits Page.........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array practice questions page" name="Check Assessment page of Find Numbers with Even Number of Digits page - #1.1" time="2.568">
+<testcase classname="Feature to test the array practice questions page" name="Check Assessment page of Find Numbers with Even Number of Digits page - #1.1" time="1.943">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -408,7 +834,7 @@ When User gives the input from "Even" and 0.................................pass
 Then User clicks the Run button and submit button...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array practice questions page" name="Check the Squares of  a Sorted Array page" time="1.521">
+<testcase classname="Feature to test the array practice questions page" name="Check the Squares of  a Sorted Array page" time="1.325">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -421,7 +847,7 @@ When User clicks on Squares of  a Sorted Array Link.........................pass
 Then User navigated to Squares of  a Sorted Array Page......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test the array practice questions page" name="Check Assessment page of Find Numbers with Even Number of Digits page - #1.1" time="2.519">
+<testcase classname="Feature to test the array practice questions page" name="Check Assessment page of Find Numbers with Even Number of Digits page - #1.1" time="1.969">
 <system-out><![CDATA[
 Given User is in the home page..............................................passed
 When user clicks the Array Get Started button...............................passed
@@ -434,6 +860,508 @@ And User clicks on Squares of  a Sorted Array Link..........................pass
 And User is on Squares of  a Sorted Array page..............................passed
 When User gives the input from "Square" and 0...............................passed
 Then User clicks the Run button and submit button...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Tree Overview Trees link" time="3.176">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+When User clicks on Tree Overview Link......................................passed
+Then User navigated to Overview Trees Page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Tree Terminologies link" time="2.537">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+When User clicks on Terminologies Link......................................passed
+Then User navigated to Terminologies Page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Tree Types Trees link" time="2.743">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+When User clicks on Types Trees Link........................................passed
+Then User navigated to Types Trees Page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Tree Traversals link" time="2.68">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+When User clicks on Traversals Link.........................................passed
+Then User navigated to Traversal Page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Tree illustration link" time="2.64">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+When User clicks on Illustration Link.......................................passed
+Then User navigated to Illustration Page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Tree Binary Trees link" time="2.635">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+When User clicks on Binary tree Link........................................passed
+Then User navigated to Binary Tree Page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Tree Types Binary Trees link" time="3.814">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+When User clicks on Types Binary Link.......................................passed
+Then User navigated to Types Binary Page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Tree Impl Python link" time="2.782">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+When User clicks on Impl Python Link........................................passed
+Then User navigated to Impl Python Page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Tree Binary Traversals link" time="2.607">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+When User clicks on Binary Traversals Link..................................passed
+Then User navigated to Binary Traversal Page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Tree Impl Binary Trees link" time="2.651">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+When User clicks on Impl Binary  TreesLink..................................passed
+Then User navigated to Impl Binary Page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Tree Application Binary Tree link" time="2.635">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+When User clicks on Appl Binary tree Link...................................passed
+Then User navigated to Application Binary Page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Tree Binary Search link" time="2.915">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+When User clicks on Binary Search Link......................................passed
+Then User navigated to Binary Search Page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Tree Impl Binary Search link" time="2.644">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+When User clicks on Impl Binary  Search Link................................passed
+Then User navigated to Impl BinarySearch Page...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test  Overview Overview Trees link" time="2.92">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Tree Overview Link.......................................passed
+And User is on Overview Tree page...........................................passed
+When User clicks on Tree Overview Link......................................passed
+Then User navigated to Overview Trees Page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Overview Terminologies link" time="2.964">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Tree Overview Link.......................................passed
+And User is on Overview Tree page...........................................passed
+When User clicks on Terminologies Link......................................passed
+Then User navigated to Terminologies Page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Overview Types Trees link" time="3.082">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Tree Overview Link.......................................passed
+And User is on Overview Tree page...........................................passed
+When User clicks on Types Trees Link........................................passed
+Then User navigated to Types Trees Page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Overview Traversals link" time="2.857">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Tree Overview Link.......................................passed
+And User is on Overview Tree page...........................................passed
+When User clicks on Traversals Link.........................................passed
+Then User navigated to Traversal Page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Overview illustration link" time="2.877">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Tree Overview Link.......................................passed
+And User is on Overview Tree page...........................................passed
+When User clicks on Illustration Link.......................................passed
+Then User navigated to Illustration Page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Overview Binary Trees link" time="3.08">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Tree Overview Link.......................................passed
+And User is on Overview Tree page...........................................passed
+When User clicks on Binary tree Link........................................passed
+Then User navigated to Binary Tree Page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Overview Types Binary Trees link" time="3.209">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Tree Overview Link.......................................passed
+And User is on Overview Tree page...........................................passed
+When User clicks on Types Binary Link.......................................passed
+Then User navigated to Types Binary Page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Overview Impl Python link" time="3.319">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Tree Overview Link.......................................passed
+And User is on Overview Tree page...........................................passed
+When User clicks on Impl Python Link........................................passed
+Then User navigated to Impl Python Page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Overview Binary Traversals link" time="3.363">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Tree Overview Link.......................................passed
+And User is on Overview Tree page...........................................passed
+When User clicks on Binary Traversals Link..................................passed
+Then User navigated to Binary Traversal Page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Overview Impl Binary Trees link" time="3.02">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Tree Overview Link.......................................passed
+And User is on Overview Tree page...........................................passed
+When User clicks on Impl Binary  TreesLink..................................passed
+Then User navigated to Impl Binary Page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Overview Application Binary Tree link" time="2.82">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Tree Overview Link.......................................passed
+And User is on Overview Tree page...........................................passed
+When User clicks on Appl Binary tree Link...................................passed
+Then User navigated to Application Binary Page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Overview Binary Search link" time="2.937">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Tree Overview Link.......................................passed
+And User is on Overview Tree page...........................................passed
+When User clicks on Binary Search Link......................................passed
+Then User navigated to Binary Search Page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Overview Impl Binary Search link" time="2.93">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Tree Overview Link.......................................passed
+And User is on Overview Tree page...........................................passed
+When User clicks on Impl Binary  Search Link................................passed
+Then User navigated to Impl BinarySearch Page...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="Test Overview Impl Practice Question link" time="0.884">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Tree Overview Link.......................................passed
+And User is on Overview Tree page...........................................passed
+When User clicks on Tree Practice Questions Link............................passed
+Then User navigated to Tree Practice  Page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="#1.1" time="1.292">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Tree Overview Link.......................................passed
+And User is on Overview Sub page............................................passed
+When User clicks on sub tree Try Here link..................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="#1.1" time="1.296">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Terminologies Link.......................................passed
+And User is on Overview Sub page............................................passed
+When User clicks on sub tree Try Here link..................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="#1.1" time="1.287">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Types Trees Link.........................................passed
+And User is on Overview Sub page............................................passed
+When User clicks on sub tree Try Here link..................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="#1.1" time="1.52">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Illustration Link........................................passed
+And User is on Overview Sub page............................................passed
+When User clicks on sub tree Try Here link..................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="#1.1" time="1.156">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Binary tree Link.........................................passed
+And User is on Overview Sub page............................................passed
+When User clicks on sub tree Try Here link..................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="#1.1" time="1.347">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Types Binary Link........................................passed
+And User is on Overview Sub page............................................passed
+When User clicks on sub tree Try Here link..................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="#1.1" time="1.256">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Impl Binary  TreesLink...................................passed
+And User is on Overview Sub page............................................passed
+When User clicks on sub tree Try Here link..................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="#1.1" time="1.173">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Impl Python Link.........................................passed
+And User is on Overview Sub page............................................passed
+When User clicks on sub tree Try Here link..................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="#1.1" time="1.113">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Appl Binary tree Link....................................passed
+And User is on Overview Sub page............................................passed
+When User clicks on sub tree Try Here link..................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="#1.1" time="1.226">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Binary Search Link.......................................passed
+And User is on Overview Sub page............................................passed
+When User clicks on sub tree Try Here link..................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tree page" name="#1.1" time="1.477">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Tree Get Started button................................passed
+Given User is on Tree page..................................................passed
+And User clicks on Impl Binary  Search Link.................................passed
+And User is on Overview Sub page............................................passed
+When User clicks on sub tree Try Here link..................................passed
+And User is on the Try Editor Page..........................................passed
+And User enters data from "Sheet1" and 0....................................passed
+And User clicks on Run button...............................................passed
+Then Statement will be executed and Result shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the Graph page" name="Test Graph page Graph link" time="0.705">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Graph Get Started button...............................passed
+Given User is on Graph Page.................................................passed
+When User clicks on Graph link..............................................passed
+Then User navigated to Graph page...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the Graph page" name="Test Graph page Graph Represent link" time="0.676">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Graph Get Started button...............................passed
+Given User is on Graph Page.................................................passed
+When User clicks on Graph Represent link....................................passed
+Then User navigated to Graph Represent page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the Graph page" name="Test Sub Graph page Graph link" time="0.993">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Graph Get Started button...............................passed
+Given User is on Graph Page.................................................passed
+And User clicks on Graph link...............................................passed
+When User clicks on Sub Graph link..........................................passed
+Then User navigated to Graph page...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the Graph page" name="Test Sub Graph page Graph Represent link" time="0.969">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Graph Get Started button...............................passed
+Given User is on Graph Page.................................................passed
+And User clicks on Graph Represent link.....................................passed
+When User clicks on Sub Graph Represent link................................passed
+Then User navigated to Graph Represent page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the Graph page" name="Test Sub Graph Page Practise Test Link" time="1.155">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Graph Get Started button...............................passed
+Given User is on Graph Page.................................................passed
+And User clicks on Graph link...............................................passed
+When User clicks on Graph Practise Test link................................passed
+Then User navigated to Graph Practise Test page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the Graph page" name="#1.1" time="1.637">
+<failure/>
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Graph Get Started button...............................passed
+Given User is on Graph Page.................................................passed
+And User clicks on Graph link...............................................passed
+And User is on Sub Graph Page...............................................passed
+And User clicks on Sub Graph Represent link.................................passed
+When User clicks on Graph Try Here link.....................................passed
+And User enters graph data from "Sheet1" and 0..............................passed
+And User clicks on  graph Run button........................................undefined
+Then graph Statement will be executed and Result shown......................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Test the Graph page" name="#1.1" time="1.244">
+<system-out><![CDATA[
+Given User is in the home page..............................................passed
+When user clicks the Graph Get Started button...............................passed
+Given User is on Graph Page.................................................passed
+And User clicks on Graph Represent link.....................................passed
+And User is on Sub Graph Page...............................................passed
+And User clicks on Sub Graph Represent link.................................passed
+When User clicks on Graph Represent Try Here link...........................passed
+And User enters graph data from "Sheet1" and 0..............................passed
+And User clicks on graph Run button.........................................passed
+Then graph Statement will be executed and Result shown......................passed
 ]]></system-out>
 </testcase>
 </testsuite>
