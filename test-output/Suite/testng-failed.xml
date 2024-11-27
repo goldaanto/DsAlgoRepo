@@ -9,7 +9,7 @@
           <include name="setUpClass"/>
           <include name="BeforeClass"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="65 122"/>
+          <include name="runScenario" invocation-numbers="133 76 29"/>
         </methods>
       </class> <!-- runner.DsAlgoTestNGRunner -->
     </classes>

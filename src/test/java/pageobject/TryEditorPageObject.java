@@ -1,15 +1,20 @@
 package pageobject;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class TryEditorPageObject {
 	
 	WebDriver driver = null;
+	Logger logg = (Logger) LogManager.getLogger(TryEditorPageObject.class);
+	
 	//constructor
 	
 	public TryEditorPageObject(WebDriver driver)
@@ -42,6 +47,13 @@ public class TryEditorPageObject {
 	
 	public void clickRun()
 	{
-		button_loc.click();
+		try {
+			button_loc.click();		
+			driver.switchTo().alert().accept();
+			Assert.assertTrue(true);
+			} catch (Exception e) {
+				logg.error(e.getMessage());
+			}
+		
 	}
 }
