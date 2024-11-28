@@ -40,16 +40,19 @@ Background:
 Given User is on Graph Page
 And User clicks on Graph link
 And User is on Sub Graph Page
-And User clicks on Sub Graph Represent link
+And User clicks on Sub Graph link
 When User clicks on Graph Try Here link
 
 And User enters graph data from "<Sheet>" and <RowNum>
-And User clicks on  graph Run button
+And User clicks on graph Run button
 Then graph Statement will be executed and Result shown
  
  Examples:
  |Sheet|RowNum|
  |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
 
   
        Scenario Outline:
@@ -65,6 +68,9 @@ Then graph Statement will be executed and Result shown
  Examples:
  |Sheet|RowNum|
  |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
   
     
     

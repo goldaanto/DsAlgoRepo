@@ -210,7 +210,10 @@ Feature: Test Tree page
 
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+     |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
       
 
          Scenario Outline: 
@@ -225,7 +228,10 @@ Feature: Test Tree page
 
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+     |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
       
             Scenario Outline: 
     Given User is on Tree page
@@ -239,7 +245,10 @@ Feature: Test Tree page
 
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+     |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
       
              Scenario Outline: 
     Given User is on Tree page   
@@ -253,7 +262,10 @@ Feature: Test Tree page
 
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+      |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
       
              Scenario Outline: 
     Given User is on Tree page   
@@ -267,7 +279,10 @@ Feature: Test Tree page
 
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+     |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
       
       
                Scenario Outline: 
@@ -282,7 +297,10 @@ Feature: Test Tree page
 
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+     |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
       
                Scenario Outline: 
     Given User is on Tree page   
@@ -296,7 +314,10 @@ Feature: Test Tree page
 
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+      |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
       
                Scenario Outline: 
     Given User is on Tree page   
@@ -310,7 +331,10 @@ Feature: Test Tree page
 
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+      |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
       
                    Scenario Outline: 
     Given User is on Tree page   
@@ -324,4 +348,7 @@ Feature: Test Tree page
 
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+     |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|

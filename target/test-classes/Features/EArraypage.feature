@@ -74,8 +74,10 @@ Feature: Feature to test the array page
 
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
-
+     |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
   Scenario: Test Implement Queue Page Implement Array Link
     Given User is on Array page
     And User clicks on Arrays in Python Link
@@ -96,7 +98,10 @@ Feature: Feature to test the array page
 
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+      |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
     
 
   Scenario: Test Implement  Page Implement Queue Opt Link
@@ -119,4 +124,7 @@ Feature: Feature to test the array page
 
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+     |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|

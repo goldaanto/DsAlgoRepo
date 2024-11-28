@@ -26,13 +26,14 @@ public void user_is_on_graph_page() {
 	if(graphPageObject==  null) {
 		graphPageObject = new GraphPageObject(driver);
 	}
-	
+	System.out.println("111111111111111111111111"+driver.getCurrentUrl());
    
 }
 
 @When("User clicks on Graph link")
 public void user_clicks_on_graph_link() {
 	graphPageObject.clickGraphLink();
+	System.out.println("22222222222222222222222222222"+driver.getCurrentUrl());
 }
 
 //@Then("ser navigated to Graph page")
@@ -45,6 +46,7 @@ public void user_clicks_on_graph_link() {
 @When("User clicks on Graph Represent link")
 public void user_clicks_on_graph_represent_link() {
 	graphPageObject.clickGraphRepLink();
+	System.out.println("33333333333333333333333"+driver.getCurrentUrl());
 }
 
 @Given("User is on Sub Graph Page")
@@ -54,7 +56,7 @@ public void user_is_on_sub_graph_page() {
 	if(graphPageObject==  null) {
 		graphPageObject = new GraphPageObject(driver);
 	}
-   
+	System.out.println("4444444444444444444444444"+driver.getCurrentUrl());
 }
 
 @Then("User navigated to Graph Represent page")
@@ -80,16 +82,19 @@ public void user_is_on_sub_graph_represent_page() {
 	{
 		graphPageObject = new GraphPageObject(driver);
 	}
-    
+	System.out.println("55555555555555555555555555555"+driver.getCurrentUrl());
 }
 @When("User clicks on Sub Graph link")
 public void user_clicks_on_sub_graph_link() {
+	
 	graphPageObject.clickGraphLink();
+	System.out.println("666666666666666666666666666666666"+driver.getCurrentUrl());
 }
 
 @When("User clicks on Sub Graph Represent link")
 public void user_clicks_on_sub_graph_represent_link() {
 	graphPageObject.clickGraphRepLink();
+	System.out.println("7777777777777777777777777777777777777"+driver.getCurrentUrl());
 }
 
 
@@ -103,16 +108,19 @@ public void user_navigated_to_graph_practise_test_page() {
 @When("User clicks on Graph Practise Test link")
 public void user_clicks_on_graph_practise_test_link() {
 	graphPageObject.clickPracticeLink();
+	System.out.println("7777777777777777777777777777777777777"+driver.getCurrentUrl());
 }
 
 @When("User clicks on Graph Try Here link")
 public void user_clicks_on_graph_try_here_link() {
-	graphPageObject.clickGraphLink();
+	graphPageObject.clickTryLink();
+	System.out.println("9999999999999999999999999999999999999999999999999999997"+driver.getCurrentUrl());
+	
 }
 
 @When("User clicks on Graph Represent Try Here link")
 public void user_clicks_on_graph_represent_try_here_link() {
-	graphPageObject.clickGraphRepLink();
+	graphPageObject.clickTryLink();
 }
 
 @When("User enters graph data from {string} and {int}")
@@ -129,16 +137,21 @@ public void user_enters_graph_data_from_and(String string, Integer int1) {
 	String statement = (String) data.get(0);
 	
 	System.out.println("statementstatementstatementstatementstatementstatementstatement"+statement);
+	System.out.println("statementstatement"+driver.getCurrentUrl());
 	
 	
-	//graphPageObject.setTextAreaValue(statement);
+graphPageObject.setTextAreaValue(statement);
 	
 }
 
+
+
 @When("User clicks on graph Run button")
 public void user_clicks_on_graph_run_button() {
-	//graphPageObject.clickRun();
+	graphPageObject.clickRun();
 }
+
+
 
 @Then("graph Statement will be executed and Result shown")
 public void graph_statement_will_be_executed_and_result_shown() {

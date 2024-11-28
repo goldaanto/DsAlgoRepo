@@ -71,7 +71,10 @@ Feature: Test Queue page
 
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+      |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
 
   Scenario Outline: 
     Given User is on Queue page
@@ -85,7 +88,10 @@ Feature: Test Queue page
 
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+      |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
 
   Scenario Outline: 
     Given User is on Queue page
@@ -99,7 +105,10 @@ Feature: Test Queue page
 
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+     |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
 
   Scenario Outline: 
     Given User is on Queue page
@@ -113,4 +122,7 @@ Feature: Test Queue page
 
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+     |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|

@@ -64,7 +64,7 @@ public class GraphPageObject {
 	
 	public void clickTryLink()
 	{
-		practice_loc.click();
+		try_loc.click();
 	}
 	
 	public void clickRun()

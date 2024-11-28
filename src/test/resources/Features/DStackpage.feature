@@ -67,7 +67,10 @@ Feature: Feature to test the Stack page
     Then Statement will be executed and Result shown
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+     |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
       
     
 
@@ -83,7 +86,10 @@ Feature: Feature to test the Stack page
     Then Statement will be executed and Result shown
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+     |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
     
 
   Scenario: Check the Operations in Applications page
@@ -98,6 +104,9 @@ Feature: Feature to test the Stack page
     Then Statement will be executed and Result shown
     Examples: 
       | Sheet  | RowNum |
-      | Sheet1 |      0 |
+     |Sheet1|0|
+ |Sheet1|1|
+ |Sheet1|2|
+ |Sheet1|3|
     
     

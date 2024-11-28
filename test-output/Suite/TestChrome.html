@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>TestChrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>132/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>221/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Nov 26 19:55:52 EST 2024</td>
+<td>Started on:</td><td>Thu Nov 28 00:10:54 EST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>274 seconds (274442 ms)</td>
+<tr><td>Total time:</td><td>552 seconds (552424 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,69 +76,78 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test the Graph page"</td>
-<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;User clicks on  graph Run button&apos; is undefined.
-You can implement this step using the snippet(s) below:
-
-@When(&quot;User clicks on  graph Run button&quot;)
-public void user_clicks_on_graph_run_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:136)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace766671686", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace766671686'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;User clicks on  graph Run button&apos; is undefined.
-You can implement this step using the snippet(s) below:
-
-@When(&quot;User clicks on  graph Run button&quot;)
-public void user_clicks_on_graph_run_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:136)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Practice link", "feature to test the DSintro page"</td>
+<td><div><pre>java.lang.AssertionError: expected [ Practice Questions ] but found [Practice Questions]
+	at stepdef.DSintrostepdef.user_is_navigated_to_practice_questions_page(DSintrostepdef.java:67)
+	at ✽.user is navigated to Practice Questions page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BiDSintropage.feature:24)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1199606198", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1199606198'><pre>java.lang.AssertionError: expected [ Practice Questions ] but found [Practice Questions]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepdef.DSintrostepdef.user_is_navigated_to_practice_questions_page(DSintrostepdef.java:67)
+	at ✽.user is navigated to Practice Questions page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BiDSintropage.feature:24)
+</pre></div></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Scroll down", "feature to test the DSintro page"</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : NameError: name &apos;Print&apos; is not defined on line 1}
+  (Session info: chrome=131.0.6778.86): NameError: name &apos;Print&apos; is not defined on line 1
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d2950ae0ee8c0f94f86484edd0e2f9f7, get {url=https://dsportalapp.herokuapp.com/home}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\golda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58331}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58331/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d2950ae0ee8c0f94f86484edd0e2f9f7
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at stepdef.Homepagestepdef.user_is_in_the_home_page(Homepagestepdef.java:66)
+	at ✽.User is in the home page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BiDSintropage.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2069016970", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2069016970'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : NameError: name &apos;Print&apos; is not defined on line 1}
+  (Session info: chrome=131.0.6778.86): NameError: name &apos;Print&apos; is not defined on line 1
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d2950ae0ee8c0f94f86484edd0e2f9f7, get {url=https://dsportalapp.herokuapp.com/home}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\golda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58331}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58331/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d2950ae0ee8c0f94f86484edd0e2f9f7
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at stepdef.Homepagestepdef.user_is_in_the_home_page(Homepagestepdef.java:66)
+	at ✽.User is in the home page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BiDSintropage.feature:4)
+</pre></div></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Applications page", "Feature to test the Stack page"</td>
+<td><div><pre>java.lang.AssertionError: expected [ Practice Questions ] but found [Practice Questions]
+	at stepdef.Stackstepdef.user_navigated_to_practice_page(Stackstepdef.java:107)
+	at ✽.User navigated to Practice Page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/DStackpage.feature:55)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1478339046", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1478339046'><pre>java.lang.AssertionError: expected [ Practice Questions ] but found [Practice Questions]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepdef.Stackstepdef.user_navigated_to_practice_page(Stackstepdef.java:107)
+	at ✽.User navigated to Practice Page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/DStackpage.feature:55)
 </pre></div></td>
 <td>1</td>
 <td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
@@ -149,30 +158,52 @@ public void user_clicks_on_graph_run_button() {
 	at org.junit.Assert.assertEquals(Assert.java:146)
 	at stepdef.QueuePageStep.user_navigated_to_queue_practise_test_page(QueuePageStep.java:91)
 	at ✽.User navigated to Queue Practise Test page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/FQueue.feature:60)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1403255947", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1403255947'><pre>org.junit.ComparisonFailure: expected:&lt;[ Practice Questions ]&gt; but was:&lt;[Practice Questions]&gt;
+</pre></div><a href='#' onClick='toggleBox("stack-trace839288013", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace839288013'><pre>org.junit.ComparisonFailure: expected:&lt;[ Practice Questions ]&gt; but was:&lt;[Practice Questions]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:117)
 	at org.junit.Assert.assertEquals(Assert.java:146)
 	at stepdef.QueuePageStep.user_navigated_to_queue_practise_test_page(QueuePageStep.java:91)
 	at ✽.User navigated to Queue Practise Test page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/FQueue.feature:60)
 </pre></div></td>
-<td>0</td>
+<td>1</td>
 <td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
 <tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Applications page", "Feature to test the Stack page"</td>
-<td><div><pre>java.lang.AssertionError: expected [ Practice Questions ] but found [Practice Questions]
-	at stepdef.Stackstepdef.user_navigated_to_practice_page(Stackstepdef.java:107)
-	at ✽.User navigated to Practice Page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BStackpage.feature:55)
-... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1705282731", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1705282731'><pre>java.lang.AssertionError: expected [ Practice Questions ] but found [Practice Questions]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at stepdef.Stackstepdef.user_navigated_to_practice_page(Stackstepdef.java:107)
-	at ✽.User navigated to Practice Page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BStackpage.feature:55)
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test the Graph page"</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : NameError: name &apos;Print&apos; is not defined on line 1}
+  (Session info: chrome=131.0.6778.86): NameError: name &apos;Print&apos; is not defined on line 1
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d2950ae0ee8c0f94f86484edd0e2f9f7, get {url=https://dsportalapp.herokuapp.com/home}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\golda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58331}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58331/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d2950ae0ee8c0f94f86484edd0e2f9f7
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at stepdef.Homepagestepdef.user_is_in_the_home_page(Homepagestepdef.java:66)
+	at ✽.User is in the home page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGraph.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace904355706", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace904355706'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : NameError: name &apos;Print&apos; is not defined on line 1}
+  (Session info: chrome=131.0.6778.86): NameError: name &apos;Print&apos; is not defined on line 1
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d2950ae0ee8c0f94f86484edd0e2f9f7, get {url=https://dsportalapp.herokuapp.com/home}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\golda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58331}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58331/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d2950ae0ee8c0f94f86484edd0e2f9f7
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at stepdef.Homepagestepdef.user_is_in_the_home_page(Homepagestepdef.java:66)
+	at ✽.User is in the home page(file:///C:/Users/golda/git/DsAlgoProject/DsAlgoProject/src/test/resources/Features/BGraph.feature:4)
 </pre></div></td>
 <td>0</td>
 <td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
@@ -186,637 +217,17 @@ public void user_clicks_on_graph_run_button() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Stack page", "Feature to test the Stack page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Assessment page of Find Numbers with Even Number of Digits page", "Feature to test the array practice questions page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Impl Binary Trees link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Applications page", "Feature to test the Stack page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Registration Page", "feature to test the home page"</td>
-<td></td>
-<td>3</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Stack page", "Feature to test the Stack page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Introduction Link", "feature to test LinkedList page"</td>
-<td></td>
-<td>4</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement Queue Page Implement Array Link", "Feature to test the array page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Types Trees link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement Queue Page Implement DeQue Link", "Test Queue page"</td>
-<td></td>
-<td>5</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Delete LinkedList Link", "feature to test LinkedList page"</td>
-<td></td>
-<td>4</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of Stack  tab.", "feature to test the home page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Delete Link", "feature to test LinkedList page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of Linked List tab.", "feature to test the home page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Overview Trees link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test the Graph page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Implement Link", "feature to test LinkedList page"</td>
-<td></td>
-<td>4</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Assessment page of Max Consecutive Ones page", "Feature to test the array practice questions page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of Data Structure - intro tab.", "feature to test the home page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Array using list page", "Feature to test the array page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Array page", "Feature to test the array page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Binary Search link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Basic Operations in Lists page", "Feature to test the array page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Registration Page", "feature to test the home page"</td>
-<td></td>
-<td>3</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Applications page", "Feature to test the Stack page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page TyesOf LinkedList Link", "feature to test LinkedList page"</td>
-<td></td>
-<td>4</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree illustration link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Insert Link", "feature to test LinkedList page"</td>
-<td></td>
-<td>4</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Before login get started button of Stack  tab.", "feature to test the home page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Application Binary Tree link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Before login get started button of tree tab.", "feature to test the home page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check login  with valid credentials.", "feature to test the home page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Assessment page with invalid input of search the array page", "Feature to test the array practice questions page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature to test the array page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Stack page", "Feature to test the Stack page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
-<td></td>
-<td>3</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations Implementation page", "Feature to test the Stack page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Implement Link", "feature to test LinkedList page"</td>
-<td></td>
-<td>4</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Max Consecutive Ones page", "Feature to test the array practice questions page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Queue Page Implement DeQue Link", "Test Queue page"</td>
-<td></td>
-<td>5</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview illustration link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of Array tab.", "feature to test the home page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Types Binary Trees link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Impl Practice Question link", "Test Tree page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Assessment page of Find Numbers with Even Number of Digits page", "Feature to test the array practice questions page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Introduction Link", "feature to test LinkedList page"</td>
-<td></td>
-<td>4</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Queue Page Implement Queue Link", "Test Queue page"</td>
-<td></td>
-<td>5</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Sub Array Page Arrays in Python Link", "Feature to test the array page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Stack page", "Feature to test the Stack page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Types Binary Trees link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Impl Binary Search link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Sub Graph page Graph link", "Test the Graph page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Implementation page", "Feature to test the Stack page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Queue Page Implement Queue Link", "Test Queue page"</td>
-<td></td>
-<td>5</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Binary Trees link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement  Page Implement Queue Opt Link", "Test Queue page"</td>
-<td></td>
-<td>5</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Impl Binary Search link", "Test Tree page"</td>
-<td></td>
-<td>3</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Sub Graph Page Practise Test Link", "Test the Graph page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Find Numbers with Even Number of Digits page", "Feature to test the array practice questions page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature to test the array page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement Queue Page Implement Queue Link", "Test Queue page"</td>
-<td></td>
-<td>5</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Array in python page", "Feature to test the array page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Practise Question Link", "feature to test LinkedList page"</td>
-<td></td>
-<td>3</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations Implementation page", "Feature to test the Stack page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Impl Python link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Register Link", "feature to test the home page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Registration Page", "feature to test the home page"</td>
-<td></td>
-<td>3</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement Queue Page Implement Array Link", "Test Queue page"</td>
-<td></td>
-<td>5</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Sub Graph page Graph Represent link", "Test the Graph page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Traversal Link", "feature to test LinkedList page"</td>
-<td></td>
-<td>4</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Before login get started button of Array tab.", "feature to test the home page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Traverse LinkedList Link", "feature to test LinkedList page"</td>
-<td></td>
-<td>4</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
 <td></td>
 <td>2</td>
 <td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
 <td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Insert LinkedList Link", "feature to test LinkedList page"</td>
-<td></td>
-<td>4</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test  Overview Overview Trees link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
+<td>1</td>
 <td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of graph tab.", "feature to test the home page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Graph page Graph Represent link", "Test the Graph page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Terminologies link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement Queue Page Implement DeQue Link", "Feature to test the array page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Types Trees link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature to test the array page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Before login get started button of Data Structure - intro tab.", "feature to test the home page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of tree tab.", "feature to test the home page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check login  with valid credentials.", "feature to test the home page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Applications of Array page", "Feature to test the array page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Assessment page of search the array page", "Feature to test the array practice questions page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Traversals link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Creating LinkedList Link", "feature to test LinkedList page"</td>
-<td></td>
-<td>4</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature to test the array page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Binary Traversals link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Squares of  a Sorted Array page", "Feature to test the array practice questions page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Application Binary Tree link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Before login get started button of Linked List tab.", "feature to test the home page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Before login get started button of graph tab.", "feature to test the home page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement  Page Implement Queue Opt Link", "Feature to test the array page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Impl Python link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of Queue tab.", "feature to test the home page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check login  with valid credentials.", "feature to test the home page"</td>
-<td></td>
-<td>1</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Binary Traversals link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Impl Binary Trees link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Sign in Link", "feature to test the home page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Queue Page Implement Array Link", "Test Queue page"</td>
-<td></td>
-<td>5</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Traversals link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Create Link", "feature to test LinkedList page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Binary Search link", "Test Tree page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
-<td></td>
-<td>2</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Before login get started button of Queue tab.", "feature to test the home page"</td>
-<td></td>
-<td>0</td>
-<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
-<tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Terminologies link", "Test Tree page"</td>
 <td></td>
 <td>2</td>
 <td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
@@ -826,9 +237,924 @@ public void user_clicks_on_graph_run_button() {
 <td>0</td>
 <td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
 <tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Graph page Graph link", "Test the Graph page"</td>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Types Trees link", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of Data Structure - intro tab.", "feature to test the home page"</td>
 <td></td>
 <td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations Implementation page", "Feature to test the Stack page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Stack page", "Feature to test the Stack page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Try Editor link", "feature to test the DSintro page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Before login get started button of Data Structure - intro tab.", "feature to test the home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature to test the array page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Time Complexity Link", "feature to test the DSintro page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Types Trees link", "Test Tree page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Types Binary Trees link", "Test Tree page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Basic Operations in Lists page", "Feature to test the array page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Assessment page with invalid input of search the array page", "Feature to test the array practice questions page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Assessment page of Find Numbers with Even Number of Digits page", "Feature to test the array practice questions page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of graph tab.", "feature to test the home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Registration Page", "feature to test the home page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Register Link", "feature to test the home page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Implement Link", "feature to test LinkedList page"</td>
+<td></td>
+<td>5</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of Stack  tab.", "feature to test the home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Stack page", "Feature to test the Stack page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Before login get started button of Stack  tab.", "feature to test the home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature to test the array page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Implement Link", "feature to test LinkedList page"</td>
+<td></td>
+<td>4</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Array page", "Feature to test the array page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature to test the array page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Before login get started button of tree tab.", "feature to test the home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Practise Question Link", "feature to test LinkedList page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Binary Search link", "Test Tree page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Queue Page Implement Queue Link", "Test Queue page"</td>
+<td></td>
+<td>6</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Array using list page", "Feature to test the array page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature to test the array page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Assessment page of Find Numbers with Even Number of Digits page", "Feature to test the array practice questions page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Queue Page Implement Array Link", "Test Queue page"</td>
+<td></td>
+<td>5</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Traverse LinkedList Link", "feature to test LinkedList page"</td>
+<td></td>
+<td>5</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Impl Binary Search link", "Test Tree page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test the Graph page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Creating LinkedList Link", "feature to test LinkedList page"</td>
+<td></td>
+<td>5</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Impl Binary Search link", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Applications page", "Feature to test the Stack page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Impl Python link", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Delete Link", "feature to test LinkedList page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Applications page", "Feature to test the Stack page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Impl Practice Question link", "Test Tree page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Applications page", "Feature to test the Stack page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement Queue Page Implement Array Link", "Feature to test the array page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test the Graph page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Application Binary Tree link", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>4</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Squares of  a Sorted Array page", "Feature to test the array practice questions page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Applications page", "Feature to test the Stack page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations Implementation page", "Feature to test the Stack page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature to test the array page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature to test the array page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Queue Page Implement DeQue Link", "Test Queue page"</td>
+<td></td>
+<td>6</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Traversals link", "Test Tree page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Applications of Array page", "Feature to test the array page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Assessment page of search the array page", "Feature to test the array practice questions page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement Queue Page Implement Queue Link", "Test Queue page"</td>
+<td></td>
+<td>6</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement Queue Page Implement Array Link", "Test Queue page"</td>
+<td></td>
+<td>5</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test the Graph page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Binary Search link", "Test Tree page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Traversal Link", "feature to test LinkedList page"</td>
+<td></td>
+<td>4</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Introduction Link", "feature to test LinkedList page"</td>
+<td></td>
+<td>4</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature to test the array page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Delete LinkedList Link", "feature to test LinkedList page"</td>
+<td></td>
+<td>5</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test the Graph page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Try Editor link", "feature to test the DSintro page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Assessment page of Max Consecutive Ones page", "Feature to test the array practice questions page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Insert Link", "feature to test LinkedList page"</td>
+<td></td>
+<td>4</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations Implementation page", "Feature to test the Stack page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Sub Graph Page Practise Test Link", "Test the Graph page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Traversals link", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement Queue Page Implement DeQue Link", "Test Queue page"</td>
+<td></td>
+<td>5</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature to test the array page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Stack page", "Feature to test the Stack page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement  Page Implement Queue Opt Link", "Feature to test the array page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Sub Graph page Graph Represent link", "Test the Graph page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check login  with valid credentials.", "feature to test the home page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Impl Python link", "Test Tree page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Try Editor link", "feature to test the DSintro page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of Queue tab.", "feature to test the home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Stack page", "Feature to test the Stack page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Sub Array Page Arrays in Python Link", "Feature to test the array page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>4</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement  Page Implement Queue Opt Link", "Test Queue page"</td>
+<td></td>
+<td>5</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview illustration link", "Test Tree page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Introduction Link", "feature to test LinkedList page"</td>
+<td></td>
+<td>5</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Graph page Graph Represent link", "Test the Graph page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check login  with valid credentials.", "feature to test the home page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test  Overview Overview Trees link", "Test Tree page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Binary Traversals link", "Test Tree page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Stack page", "Feature to test the Stack page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Array in python page", "Feature to test the array page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Max Consecutive Ones page", "Feature to test the array practice questions page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test the Graph page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page TyesOf LinkedList Link", "feature to test LinkedList page"</td>
+<td></td>
+<td>5</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Implementation page", "Feature to test the Stack page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Find Numbers with Even Number of Digits page", "Feature to test the array practice questions page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test the Graph page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Impl Binary Trees link", "Test Tree page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Sign in Link", "feature to test the home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Stack page", "Feature to test the Stack page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>4</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Search the array page", "Feature to test the array practice questions page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Terminologies link", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>4</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature to test the array page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Create Link", "feature to test LinkedList page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test the Graph page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations Implementation page", "Feature to test the Stack page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Binary Traversals link", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Queue Page Implement Queue Link", "Test Queue page"</td>
+<td></td>
+<td>5</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of Array tab.", "feature to test the home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check login  with valid credentials.", "feature to test the home page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations Implementation page", "Feature to test the Stack page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree illustration link", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Types Binary Trees link", "Test Tree page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of tree tab.", "feature to test the home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Binary Trees link", "Test Tree page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Before login get started button of Array tab.", "feature to test the home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Stack page", "Feature to test the Stack page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Application Binary Tree link", "Test Tree page"</td>
+<td></td>
+<td>4</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
 <td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
 <tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the TypesOf Link", "feature to test LinkedList page"</td>
@@ -836,14 +1162,164 @@ public void user_clicks_on_graph_run_button() {
 <td>4</td>
 <td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
 <tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Graph page Graph link", "Test the Graph page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check get started button of Linked List tab.", "feature to test the home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
 <td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Binary Trees link", "Test Tree page"</td>
 <td></td>
 <td>2</td>
 <td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
 <tr>
-<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Search the array page", "Feature to test the array practice questions page"</td>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>4</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Before login get started button of Queue tab.", "feature to test the home page"</td>
 <td></td>
 <td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature to test the array page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Before login get started button of graph tab.", "feature to test the home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Sub Graph page Graph link", "Test the Graph page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Try Editor link", "feature to test the DSintro page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the Operations in Applications page", "Feature to test the Stack page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature to test the array page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Implement Queue Page Implement DeQue Link", "Feature to test the array page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature to test the array page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Impl Binary Trees link", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test Queue page"</td>
+<td></td>
+<td>1</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Tree Overview Trees link", "Test Tree page"</td>
+<td></td>
+<td>2</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Before login get started button of Linked List tab.", "feature to test the home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Registration Page", "feature to test the home page"</td>
+<td></td>
+<td>4</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Registration Page", "feature to test the home page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Overview Terminologies link", "Test Tree page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>3</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Introduction Page Insert LinkedList Link", "feature to test LinkedList page"</td>
+<td></td>
+<td>5</td>
+<td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
+<tr>
+<td title='runner.DsAlgoTestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DsAlgoTestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature to test LinkedList page"</td>
+<td></td>
+<td>4</td>
 <td>runner.DsAlgoTestNGRunner@6f8f9349</td></tr>
 </table><p>
 </body>
